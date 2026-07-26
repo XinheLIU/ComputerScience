@@ -1,0 +1,218 @@
+[
+  {
+    "id": "foundations",
+    "label": "Foundations / 基础",
+    "number": "01",
+    "chapters": [
+      {
+        "id": "orientation",
+        "label": "Orientation / 导读",
+        "sections": [
+          { "title": "Programming", "source": "README.md", "link": "/book/01-foundations/01-orientation/programming" }
+        ]
+      },
+      {
+        "id": "computing-foundations",
+        "label": "Computing Foundations / 计算基础",
+        "sections": [
+          { "title": "Hardware", "source": "Hardware.md", "link": "/book/01-foundations/02-computing-foundations/hardware", "languages": ["zh"], "legacyLanguage": "zh" },
+          { "title": "Software", "source": "Software.md", "link": "/book/01-foundations/02-computing-foundations/software", "languages": ["en", "zh"], "legacyLanguage": "en" },
+          { "title": "Computer Systems", "source": "cs-system.md", "link": "/book/01-foundations/02-computing-foundations/computer-systems", "languages": ["en", "zh"], "legacyLanguage": "en" }
+        ]
+      },
+      {
+        "id": "programming-foundations",
+        "label": "Programming Foundations / 编程基础",
+        "sections": [
+          { "title": "Programming Basics", "source": "programming-basics.md", "link": "/book/01-foundations/03-programming-foundations/programming-basics" },
+          { "title": "Data Structures & Algorithms", "source": "Data Structure & Algorithms.md", "link": "/book/01-foundations/03-programming-foundations/data-structures-and-algorithms" },
+          { "title": "Object-Oriented Programming", "source": "Object Oriented Programming (C++ Java).md", "link": "/book/01-foundations/03-programming-foundations/object-oriented-programming" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "programming",
+    "label": "Programming / 编程",
+    "number": "02",
+    "chapters": [
+      {
+        "id": "languages",
+        "label": "Languages / 编程语言",
+        "sections": [
+          { "title": "Python", "source": "Python.md", "link": "/book/02-programming/01-languages/python" },
+          { "title": "Java", "source": "java.md", "link": "/book/02-programming/01-languages/java" },
+          { "title": "Go", "source": "go.md", "link": "/book/02-programming/01-languages/go" },
+          { "title": "Web Programming", "source": "web.md", "link": "/book/02-programming/01-languages/web-programming" }
+        ]
+      },
+      {
+        "id": "quality-and-correctness",
+        "label": "Quality & Correctness / 质量与正确性",
+        "sections": [
+          { "title": "Debugging and Testing", "source": "Debugging and Testing.md", "link": "/book/02-programming/02-quality-and-correctness/debugging-and-testing" },
+          { "title": "Regular Expressions", "source": "regex.md", "link": "/book/02-programming/02-quality-and-correctness/regular-expressions" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "systems-and-data",
+    "label": "Systems & Data / 系统与数据",
+    "number": "03",
+    "chapters": [
+      {
+        "id": "operating-systems-and-linux",
+        "label": "Operating Systems & Linux / 操作系统与 Linux",
+        "sections": [
+          { "title": "Operating Systems", "source": "Operating System (OS).md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/operating-systems", "languages": ["zh"], "legacyLanguage": "zh" },
+          { "title": "Linux Notes", "source": "Linux.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-notes" },
+          { "title": "Linux Overview", "source": "linux/ReadMe.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-overview" },
+          { "title": "Command Line", "source": "linux/command-line.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/command-line" },
+          { "title": "Linux Debugging", "source": "linux/debugging.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-debugging", "languages": ["en", "zh"], "legacyLanguage": "en" },
+          { "title": "Emacs", "source": "linux/emacs-vim/emacs.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/emacs" },
+          { "title": "File System", "source": "linux/file-system.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/file-system" },
+          { "title": "Other Operating Systems", "source": "linux/other-os.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/other-operating-systems" },
+          { "title": "Shell", "source": "linux/shell.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/shell" }
+        ]
+      },
+      {
+        "id": "networks-and-web",
+        "label": "Networks & Web / 网络与 Web",
+        "sections": [
+          { "title": "Networks", "source": "Networks.md", "link": "/book/03-systems-and-data/02-networks-and-web/networks", "languages": ["zh"], "legacyLanguage": "zh" },
+          { "title": "Web Development & Networking", "source": "Web Development & Networking.md", "link": "/book/03-systems-and-data/02-networks-and-web/web-development-and-networking" }
+        ]
+      },
+      {
+        "id": "databases-and-sql",
+        "label": "Databases & SQL / 数据库与 SQL",
+        "sections": [
+          { "title": "Database", "source": "Database.md", "link": "/book/03-systems-and-data/03-databases-and-sql/database" },
+          { "title": "SQL", "source": "sql/README.md", "link": "/book/03-systems-and-data/03-databases-and-sql/sql" },
+          { "title": "SQL Execution", "source": "sql/sql-execution.md", "link": "/book/03-systems-and-data/03-databases-and-sql/sql-execution" },
+          { "title": "Data Definition Language", "source": "sql/ddl.md", "link": "/book/03-systems-and-data/03-databases-and-sql/ddl" },
+          { "title": "Data Manipulation and Control", "source": "sql/dml-dcl.md", "link": "/book/03-systems-and-data/03-databases-and-sql/dml-dcl" },
+          { "title": "Hive Query Language", "source": "sql/hql.md", "link": "/book/03-systems-and-data/03-databases-and-sql/hql" }
+        ]
+      },
+      {
+        "id": "data-platforms",
+        "label": "Data Platforms / 数据平台",
+        "sections": [
+          { "title": "Big Data Tech", "source": "Big Data Tech.md", "link": "/book/03-systems-and-data/04-data-platforms/big-data-tech" },
+          { "title": "Big Data Technology", "source": "Big Data Technology.md", "link": "/book/03-systems-and-data/04-data-platforms/big-data-technology" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "design-and-architecture",
+    "label": "Design & Architecture / 设计与架构",
+    "number": "04",
+    "chapters": [
+      {
+        "id": "design-foundations",
+        "label": "Design Foundations / 设计基础",
+        "sections": [
+          { "title": "Software Design", "source": "design-and-architecture/README.md", "link": "/book/04-design-and-architecture/01-design-foundations/software-design" },
+          { "title": "Programming Paradigms", "source": "design-and-architecture/programming-paradigm.md", "link": "/book/04-design-and-architecture/01-design-foundations/programming-paradigms" },
+          { "title": "Design Overview", "source": "design-and-architecture/design-overview.md", "link": "/book/04-design-and-architecture/01-design-foundations/design-overview" },
+          { "title": "Design Principles", "source": "design-and-architecture/design-principles.md", "link": "/book/04-design-and-architecture/01-design-foundations/design-principles" },
+          { "title": "Code Testing", "source": "design-and-architecture/code-testing.md", "link": "/book/04-design-and-architecture/01-design-foundations/code-testing" }
+        ]
+      },
+      {
+        "id": "design-patterns",
+        "label": "Design Patterns / 设计模式",
+        "sections": [
+          { "title": "Design Patterns — Comprehensive", "source": "Design Patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-patterns-comprehensive" },
+          { "title": "Design Patterns — Overview", "source": "design-and-architecture/design-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-patterns-overview" },
+          { "title": "Design Principles", "source": "design-and-architecture/design-patterns/design-principles.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-principles" },
+          { "title": "Creational Patterns", "source": "design-and-architecture/design-patterns/creational-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/creational-patterns" },
+          { "title": "Structural Patterns", "source": "design-and-architecture/design-patterns/structural-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/structural-patterns" },
+          { "title": "Behavioral Patterns", "source": "design-and-architecture/design-patterns/behavioral-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/behavioral-patterns" }
+        ]
+      },
+      {
+        "id": "software-architecture",
+        "label": "Software Architecture / 软件架构",
+        "sections": [
+          { "title": "Software Architecture", "source": "design-and-architecture/software-architecture.md", "link": "/book/04-design-and-architecture/03-software-architecture/software-architecture" },
+          { "title": "UML", "source": "design-and-architecture/software-architecture/umlunified-modeling-language.md", "link": "/book/04-design-and-architecture/03-software-architecture/uml-unified-modeling-language" },
+          { "title": "Architecture Styles", "source": "design-and-architecture/software-architecture/architecture-styles.md", "link": "/book/04-design-and-architecture/03-software-architecture/architecture-styles" },
+          { "title": "Analyze and Evaluate an Architecture", "source": "design-and-architecture/software-architecture/analyze-and-evaluate-an-architecture.md", "link": "/book/04-design-and-architecture/03-software-architecture/analyze-and-evaluate-an-architecture" }
+        ]
+      },
+      {
+        "id": "distributed-systems",
+        "label": "Distributed Systems / 分布式系统",
+        "sections": [
+          { "title": "System Design", "source": "System Design.md", "link": "/book/04-design-and-architecture/04-distributed-systems/system-design" },
+          { "title": "Service-Oriented Architecture", "source": "design-and-architecture/service-oriented-architecture.md", "link": "/book/04-design-and-architecture/04-distributed-systems/service-oriented-architecture" },
+          { "title": "Web Technologies", "source": "design-and-architecture/service-oriented-architecture/web-technologies.md", "link": "/book/04-design-and-architecture/04-distributed-systems/web-technologies" },
+          { "title": "Distributed System", "source": "design-and-architecture/service-oriented-architecture/distributed-system.md", "link": "/book/04-design-and-architecture/04-distributed-systems/distributed-system" },
+          { "title": "Web Services", "source": "design-and-architecture/service-oriented-architecture/web-services.md", "link": "/book/04-design-and-architecture/04-distributed-systems/web-services" },
+          { "title": "REST Architecture for SOA", "source": "design-and-architecture/service-oriented-architecture/rest-architecture-for-soa.md", "link": "/book/04-design-and-architecture/04-distributed-systems/rest-architecture-for-soa" },
+          { "title": "Microservices", "source": "design-and-architecture/service-oriented-architecture/microservices.md", "link": "/book/04-design-and-architecture/04-distributed-systems/microservices" },
+          { "title": "Database and Cache", "source": "design-and-architecture/service-oriented-architecture/database-and-cache.md", "link": "/book/04-design-and-architecture/04-distributed-systems/database-and-cache" }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "engineering-practice",
+    "label": "Engineering Practice / 工程实践",
+    "number": "05",
+    "chapters": [
+      {
+        "id": "environment-and-tools",
+        "label": "Environment & Tools / 环境与工具",
+        "sections": [
+          { "title": "Working Environment Setup", "source": "Working-Environment-Set-Up.md", "link": "/book/05-engineering-practice/01-environment-and-tools/working-environment-setup" },
+          { "title": "Programming Tools", "source": "Programming Tools.md", "link": "/book/05-engineering-practice/01-environment-and-tools/programming-tools", "languages": ["zh"], "legacyLanguage": "zh" },
+          { "title": "Programming Tools Map", "source": "Programming Tools Map.md", "link": "/book/05-engineering-practice/01-environment-and-tools/programming-tools-map", "languages": ["zh"], "legacyLanguage": "zh" },
+          { "title": "Git", "source": "Git.md", "link": "/book/01-foundations/01-environment-and-tools/git/git", "languages": ["en", "zh"] },
+          { "title": "Git Work Manner", "source": "git-work-manner.md", "link": "/book/05-engineering-practice/01-environment-and-tools/git-work-manner", "languages": ["zh"], "legacyLanguage": "zh" },
+          {
+            "title": "Vim",
+            "source": "Vim.md",
+            "link": "/book/05-engineering-practice/01-environment-and-tools/vim",
+            "items": [
+              { "title": "Getting Started", "source": "book/05-engineering-practice/01-environment-and-tools/vim-intro.md", "link": "/book/05-engineering-practice/01-environment-and-tools/vim/getting-started" },
+              { "title": "Editing and Workflows", "source": "book/05-engineering-practice/01-environment-and-tools/vim-keys.md", "link": "/book/05-engineering-practice/01-environment-and-tools/vim/editing-and-workflows" },
+              { "title": "Configuration", "source": "book/05-engineering-practice/01-environment-and-tools/vim-setup.md", "link": "/book/05-engineering-practice/01-environment-and-tools/vim/configuration" },
+              { "title": "Plugins and Ecosystem", "source": "book/05-engineering-practice/01-environment-and-tools/vim-plugin.md", "link": "/book/05-engineering-practice/01-environment-and-tools/vim/plugins-and-ecosystem" },
+              { "title": "Vimscript", "source": "book/05-engineering-practice/01-environment-and-tools/vim-advanced.md", "link": "/book/05-engineering-practice/01-environment-and-tools/vim/vimscript" }
+            ]
+          },
+          { "title": "Cursor", "source": "Cursor.md", "link": "/book/05-engineering-practice/01-environment-and-tools/cursor" }
+        ]
+      },
+      {
+        "id": "frameworks",
+        "label": "Frameworks / 框架",
+        "sections": [
+          { "title": "Backend Frameworks", "source": "Backend Frameworks.md", "link": "/book/05-engineering-practice/02-frameworks/backend-frameworks" },
+          { "title": "Front-end Tools", "source": "Front-end Tools.md", "link": "/book/05-engineering-practice/02-frameworks/front-end-tools" },
+          { "title": "LangChain and LangGraph", "source": "LangChain LangGraph.md", "link": "/book/05-engineering-practice/02-frameworks/langchain-langgraph" }
+        ]
+      },
+      {
+        "id": "operations",
+        "label": "Operations / 运维",
+        "sections": [
+          { "title": "DevOps & Deployment", "source": "DevOps & Deployment.md", "link": "/book/05-engineering-practice/03-operations/devops-and-deployment" },
+          { "title": "MLOps", "source": "ML Ops.md", "link": "/book/05-engineering-practice/03-operations/mlops" }
+        ]
+      },
+      {
+        "id": "security",
+        "label": "Security / 安全",
+        "sections": [
+          { "title": "Security", "source": "Security.md", "link": "/book/05-engineering-practice/04-security/security" }
+        ]
+      }
+    ]
+  }
+]
