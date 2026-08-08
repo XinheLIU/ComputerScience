@@ -1,0 +1,82 @@
+" ==============================================================================
+" Core Vim Configuration
+" ==============================================================================
+
+" Set the internal encoding to UTF-8 for multi-language support
+" This ensures proper handling of Unicode characters in buffers and menus
+set enc=utf-8
+
+" Disable vi compatibility mode to enable full Vim features
+" Allows using advanced Vim-specific functionality not present in original vi
+set nocompatible
+
+" Load Vim's default example configuration file
+" This includes common sensible defaults from Vim's runtime files
+source $VIMRUNTIME/vimrc_example.vim
+
+" ==============================================================================
+" Backup and Undo Settings
+" ==============================================================================
+
+" Disable creation of backup files (~ files)
+" Prevents clutter in working directories with automatic backup copies
+set nobackup
+
+" Set directory for persistent undo files
+" Undo history will be stored here between Vim sessions
+set undodir=~/.vim/undodir
+
+" Check if the undo directory exists; create it if not
+" - 'p' flag creates parent directories if needed
+" - 0700 sets permissions to read/write/execute for owner only (secure)
+if !isdirectory(&undodir)
+  call mkdir(&undodir, 'p', 0700)
+endif
+
+" ==============================================================================
+" Mouse Configuration
+" ==============================================================================
+
+" Configure mouse support if available
+if has('mouse')
+  " Enable full mouse support (all modes) for GUI or xterm terminals (except Mac)
+  " 'a' means mouse works in all modes (normal, visual, insert, command-line)
+  if has('gui_running') || (&term =~ 'xterm' && !has('mac'))
+    set mouse=a
+  else
+    " Limited mouse support for other environments:
+    " 'n' = normal mode, 'v' = visual mode, 'i' = insert mode
+    set mouse=nvi
+  endif
+endif
+
+" ==============================================================================
+" File Encoding Detection
+" ==============================================================================
+
+" Set priority list of encodings to try when opening files
+" - ucs-bom: Unicode byte order mark
+" - utf-8: Universal character set
+" - gb18030: Chinese national standard encoding
+" - latin1: Western European encoding
+set fileencodings=ucs-bom,utf-8,gb18030,latin1
+
+" ==============================================================================
+" Font Configuration (Linux-specific, currently commented out)
+" ==============================================================================
+
+" Uncomment below to set wide font (for CJK characters) in GUI Vim
+" Specifies Noto Sans Mono CJK SC font at size 11
+" "set guifontwide=Noto\ Sans\ Mono\ CJK\ SC\ 11
+
+" ==============================================================================
+" Menu and Syntax Settings
+" ==============================================================================
+
+" Enable syntax selection menu
+" Allows choosing syntax highlighting from a menu
+let do_syntax_sel_menu = 1
+
+" Disable lazy loading of menus
+" Loads all menu definitions immediately on startup
+let do_no_lazyload_menus = 1

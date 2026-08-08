@@ -1,4 +1,4 @@
-Last updated: 2026-07-27
+Last updated: 2026-08-01
 
 Status: Active
 
@@ -95,7 +95,25 @@ The basic Git workflow is therefore:
 2. **Selectively stage** just the changes you want in the next commit.
 3. Commit — the staged snapshot is stored permanently in the Git directory.
 
-![Git Data Transport Commands](https://www.stephenmarron.com/wp-content/uploads/2017/02/git-880x440.png)
+```mermaid
+graph TD
+    WD["Working Tree<br/>(files on disk)"]
+    STAGE["Staging Area / Index<br/>(candidate snapshot for next commit)"]
+    REPO["Git Directory .git<br/>(object database, committed)"]
+
+    WD -- "git add" --> STAGE
+    STAGE -- "git commit" --> REPO
+    REPO -- "git checkout &lt;commit&gt;<br/>git reset --hard" --> WD
+    STAGE -- "git restore --staged<br/>git reset HEAD" --> WD
+    REPO -- "git reset --soft" --> STAGE
+
+    classDef wd fill:#1e6b45,stroke:#154d32,color:#fff
+    classDef stage fill:#8a6d1f,stroke:#6b5418,color:#fff
+    classDef repo fill:#1f4e79,stroke:#163a5a,color:#fff
+    class WD wd
+    class STAGE stage
+    class REPO repo
+```
 
 ## Why Git Works: The Data Model
 
@@ -119,7 +137,7 @@ commit = struct {
 A snapshot is the top-level tree being tracked. Concretely, one commit over a project with `README.md` and a `src/` directory:
 
 ```mermaid
-graph LR
+graph TD
     C["commit a1b2c3d<br/>author, date, message<br/>parent: 9f8e7d6"]
     T0["tree 4d5e6f7<br/>(root)"]
     T1["tree 8a9b0c1<br/>(src/)"]
@@ -146,7 +164,7 @@ Read the arrows as hash references, not containment. A blob is **only bytes** �
 Now commit a change to `README.md` only:
 
 ```mermaid
-graph LR
+graph TD
     C2["commit b7c8d9e<br/>(new)"] -- "parent" --> C1["commit a1b2c3d<br/>(unchanged, immutable)"]
     C2 -- "snapshot" --> T2["tree 3e4f5a6<br/>(new root)"]
     C1 -- "snapshot" --> T0["tree 4d5e6f7<br/>(old root)"]
@@ -180,7 +198,22 @@ Git models history as a **directed acyclic graph (DAG)** of commits, not a linea
 - **Two or more parents** — a merge commit, joining parallel lines of development.
 - **No parents** — the root commit.
 
-Commits are **immutable**. "Editing" history never mutates a commit; it creates new commits and updates references to point at them. The old commits remain in the database until garbage collection — which is exactly why history rewriting is recoverable.
+```mermaid
+graph BT
+    C0["c0 (root commit)"] --> C1["c1"]
+    C1 --> C2["c2"]
+    C1 --> C3["c3"]
+    C2 --> C4["c4 (merge commit, 2 parents)"]
+    C3 --> C4
+    C4 --> C5["c5"]
+
+    classDef commit fill:#3b3355,stroke:#2a2440,color:#fff
+    class C0,C1,C2,C3,C4,C5 commit
+```
+
+Arrows point to parents, and the graph grows bottom-to-top (newer commits on top). `c1` forks into two lines (`c2`, `c3`), and `c4` stitches them back together into a single commit with two parents — exactly the point made in [Git for Computer Scientists](https://eagain.net/articles/git-for-computer-scientists/): this graph **only gets added to, and existing nodes can never be mutated**.
+
+Commits are **immutable**. "Editing" history never mutates a commit; it creates new commits and updates references to point at them. The old commits remain in the database until garbage collection — which is exactly why history rewriting is recoverable (`git fsck --lost-found` can recover commits that briefly lost their references but haven't been collected yet).
 
 ### Content addressing
 
@@ -437,7 +470,72 @@ git mergetool                 # resolve conflicts with a graphical tool
 git rebase <branch>           # replay this branch's commits onto a new base
 ```
 
-**Merge vs rebase** is the decision that matters. `merge` creates a commit with two parents, preserving exactly what happened, including the fact that development was parallel. `rebase` rewrites your commits onto a new base, producing linear history that reads more cleanly but no longer reflects the true sequence of events — and, because it creates new commits, must not be done to anything already pushed to a shared branch.
+### Merge vs rebase: two different operations on the DAG
+
+Once two branches diverge, there are exactly two ways to bring them back together — **merge** or **rebase**. The difference isn't stylistic; they perform **two different operations on the DAG**: one is pure addition, the other replaces nodes.
+
+Say `main` and `feature` fork from `c1` and each move forward independently:
+
+```mermaid
+graph BT
+    C1["c1"] --> C2["c2 (main)"]
+    C1 --> C3["c3"]
+    C3 --> C4["c4 (feature)"]
+
+    classDef commit fill:#3b3355,stroke:#2a2440,color:#fff
+    class C1,C2,C3,C4 commit
+```
+
+**merge**: running `git merge feature` on `main` **creates one new commit**, `c5`, with two parents (`c2` and `c4`). Every existing node is untouched — a new node is added that stitches the two lines together:
+
+```mermaid
+graph BT
+    C1["c1"] --> C2["c2"]
+    C1 --> C3["c3"]
+    C3 --> C4["c4"]
+    C2 --> C5["c5 (merge commit<br/>parents: c2, c4)"]
+    C4 --> C5
+    MAIN["main"] -.-> C5
+
+    classDef commit fill:#3b3355,stroke:#2a2440,color:#fff
+    classDef ref fill:#8a6d1f,stroke:#6b5418,color:#fff
+    class C1,C2,C3,C4,C5 commit
+    class MAIN ref
+```
+
+`c3` and `c4` stay exactly as they were, and `c5` faithfully records that parallel development happened and was reconciled. This fits the DAG's **append-only** model perfectly — no existing object is ever touched.
+
+**rebase**: running `git rebase main` on `feature` makes Git **replay** the changes from `c3` and `c4` on top of `c2`, generating new commits `c3'` and `c4'` with new hashes one at a time, then moves `feature` to point at `c4'`:
+
+```mermaid
+graph BT
+    C1["c1"] --> C2["c2"]
+    C2 --> C3P["c3' (new object, same content as c3)"]
+    C3P --> C4P["c4' (new object, same content as c4)"]
+    C1 -.-> C3["c3 (old commit, orphaned)"]
+    C3 -.-> C4["c4 (old commit, orphaned)"]
+    FEAT["feature"] -.-> C4P
+
+    classDef commit fill:#3b3355,stroke:#2a2440,color:#fff
+    classDef orphan fill:#5a2a2a,stroke:#3d1c1c,color:#fff
+    classDef ref fill:#8a6d1f,stroke:#6b5418,color:#fff
+    class C1,C2,C3P,C4P commit
+    class C3,C4 orphan
+    class FEAT ref
+```
+
+`c3'` and `c4'` are **entirely new objects** — the parent changed, so the hash changed, even though the file content is identical. The old `c3` and `c4` don't disappear immediately: as long as any reference (e.g. the reflog) still points at them, they stay in the database until garbage collection — which is why a botched rebase can usually be rescued with `git reflog`. But once `feature` points at `c4'`, the history reachable from `main`/`feature` is a straight line, as if development had never been parallel.
+
+**Which to use**:
+
+| Situation | Recommendation |
+| --- | --- |
+| Commits already pushed to a shared branch that others may have built on | **Merge only** — rebasing would leave your history and theirs pointing at different objects for the same work, producing a confusing split |
+| A personal, unpushed local feature branch you want to clean up before it lands | **Rebase is better** — nobody ever sees the intermediate `c3`/`c4` once `c3'`/`c4'` replace them |
+| You want a faithful record that development was parallel and got reconciled at a point in time | **Merge** — it's the only option that honestly records the fork and the join |
+| You want a history with no merge commits, reading like sequential development in `git log --oneline` | **Rebase** — at the cost of losing the original timeline |
+
+The essential difference in one line: merge **adds one new node** to the DAG to stitch two existing lines together; rebase **manufactures a batch of new nodes** to take the place of the old ones on a line. The former rewrites nothing and only adds; the latter creates new objects while the old ones linger until garbage collection — which is exactly why rebase is dangerous on pushed, shared history and safe on a purely local branch.
 
 `git switch` and `git restore` (Git 2.23+) exist because `git checkout` was doing two unrelated jobs — moving `HEAD` and overwriting files in the working tree. Prefer the newer pair; the ambiguity of `checkout` is a genuine source of accidents.
 
