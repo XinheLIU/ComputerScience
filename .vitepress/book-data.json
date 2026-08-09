@@ -8,34 +8,34 @@
         "id": "computational-thinking-1",
         "label": "Computational Thinking / 计算思维",
         "sections": [
-          { "title": "Ch 1 · From Problem to Algorithm", "source": "ch01-algorithms.md", "link": "/book/stage-1-foundations/ch01-algorithms" },
-          { "title": "Ch 2 · Data, Types & Representation", "source": "ch02-types-and-representation.md", "link": "/book/stage-1-foundations/ch02-types-and-representation" },
-          { "title": "Ch 3 · Paradigms & Language Design", "source": "ch03-paradigms.md", "link": "/book/stage-1-foundations/ch03-paradigms" }
+          { "title": "Ch 1 · From Problem to Algorithm", "source": "ch01-algorithms.md", "link": "/book/stage-1-foundations/ch01-algorithms", "languages": ["zh"] },
+          { "title": "Ch 2 · Data, Types & Representation", "source": "ch02-types-and-representation.md", "link": "/book/stage-1-foundations/ch02-types-and-representation", "languages": ["zh"] },
+          { "title": "Ch 3 · Paradigms & Language Design", "source": "ch03-paradigms.md", "link": "/book/stage-1-foundations/ch03-paradigms", "languages": ["zh"] }
         ]
       },
       {
         "id": "math-foundations-1",
         "label": "Math Foundations / 数学基础种子",
         "sections": [
-          { "title": "Ch 4 · Probability Is Not Frequency", "source": "ch04-probability.md", "link": "/book/stage-1-foundations/ch04-probability" },
-          { "title": "Ch 5 · Linear Algebra: Geometric Intuition", "source": "ch05-linear-algebra.md", "link": "/book/stage-1-foundations/ch05-linear-algebra" }
+          { "title": "Ch 4 · Probability Is Not Frequency", "source": "ch04-probability.md", "link": "/book/stage-1-foundations/ch04-probability", "languages": ["zh"] },
+          { "title": "Ch 5 · Linear Algebra: Geometric Intuition", "source": "ch05-linear-algebra.md", "link": "/book/stage-1-foundations/ch05-linear-algebra", "languages": ["zh"] }
         ]
       },
       {
         "id": "systems-thinking-1",
         "label": "Systems Thinking / 系统思维",
         "sections": [
-          { "title": "Ch 6 · How Programs Run", "source": "ch06-how-programs-run.md", "link": "/book/stage-1-foundations/ch06-how-programs-run" },
-          { "title": "Ch 7 · Operating Systems: Three Abstractions", "source": "ch07-operating-systems.md", "link": "/book/stage-1-foundations/ch07-operating-systems" },
-          { "title": "Ch 8 · Data Structure Choice Philosophy", "source": "ch08-data-structures.md", "link": "/book/stage-1-foundations/ch08-data-structures" }
+          { "title": "Ch 6 · How Programs Run", "source": "ch06-how-programs-run.md", "link": "/book/stage-1-foundations/ch06-how-programs-run", "languages": ["zh"] },
+          { "title": "Ch 7 · Operating Systems: Three Abstractions", "source": "ch07-operating-systems.md", "link": "/book/stage-1-foundations/ch07-operating-systems", "languages": ["zh"] },
+          { "title": "Ch 8 · Data Structure Choice Philosophy", "source": "ch08-data-structures.md", "link": "/book/stage-1-foundations/ch08-data-structures", "languages": ["zh"] }
         ]
       },
       {
         "id": "engineering-practice-1",
         "label": "Engineering Practice / 工程实践",
         "sections": [
-          { "title": "Ch 9 · Code Quality & Testability", "source": "ch09-code-quality.md", "link": "/book/stage-1-foundations/ch09-code-quality" },
-          { "title": "Ch 10 · Toolchain: Version Control & Automation", "source": "ch10-toolchain.md", "link": "/book/stage-1-foundations/ch10-toolchain" }
+          { "title": "Ch 9 · Code Quality & Testability", "source": "ch09-code-quality.md", "link": "/book/stage-1-foundations/ch09-code-quality", "languages": ["zh"] },
+          { "title": "Ch 10 · Toolchain: Version Control & Automation", "source": "ch10-toolchain.md", "link": "/book/stage-1-foundations/ch10-toolchain", "languages": ["zh"] }
         ]
       }
     ]
@@ -49,34 +49,34 @@
         "id": "computational-thinking-2",
         "label": "Computational Thinking / 计算思维",
         "sections": [
-          { "title": "Ch 11 · Algorithm Design Paradigms", "source": "ch11-algorithm-design.md", "link": "/book/stage-2-advanced/ch11-algorithm-design" },
-          { "title": "Ch 12 · The Depth of Type Systems", "source": "ch12-type-systems.md", "link": "/book/stage-2-advanced/ch12-type-systems" }
+          { "title": "Ch 11 · Algorithm Design Paradigms", "source": "ch11-algorithm-design.md", "link": "/book/stage-2-advanced/ch11-algorithm-design", "languages": ["zh"] },
+          { "title": "Ch 12 · The Depth of Type Systems", "source": "ch12-type-systems.md", "link": "/book/stage-2-advanced/ch12-type-systems", "languages": ["zh"] }
         ]
       },
       {
         "id": "math-and-ai-2",
         "label": "Math & AI / 数学与AI",
         "sections": [
-          { "title": "Ch 13 · The Mathematical Essence of ML", "source": "ch13-ml-foundations.md", "link": "/book/stage-2-advanced/ch13-ml-foundations" },
-          { "title": "Ch 14 · Gradient, Optimization & Neural Networks", "source": "ch14-neural-networks.md", "link": "/book/stage-2-advanced/ch14-neural-networks" }
+          { "title": "Ch 13 · The Mathematical Essence of ML", "source": "ch13-ml-foundations.md", "link": "/book/stage-2-advanced/ch13-ml-foundations", "languages": ["zh"] },
+          { "title": "Ch 14 · Gradient, Optimization & Neural Networks", "source": "ch14-neural-networks.md", "link": "/book/stage-2-advanced/ch14-neural-networks", "languages": ["zh"] }
         ]
       },
       {
         "id": "systems-thinking-2",
         "label": "Systems Thinking / 系统思维",
         "sections": [
-          { "title": "Ch 15 · Networks & Protocols", "source": "ch15-networks.md", "link": "/book/stage-2-advanced/ch15-networks" },
-          { "title": "Ch 16 · Concurrency & Synchronization", "source": "ch16-concurrency.md", "link": "/book/stage-2-advanced/ch16-concurrency" },
-          { "title": "Ch 17 · Data Persistence: Why Relational Is Brilliant", "source": "ch17-databases.md", "link": "/book/stage-2-advanced/ch17-databases" }
+          { "title": "Ch 15 · Networks & Protocols", "source": "ch15-networks.md", "link": "/book/stage-2-advanced/ch15-networks", "languages": ["zh"] },
+          { "title": "Ch 16 · Concurrency & Synchronization", "source": "ch16-concurrency.md", "link": "/book/stage-2-advanced/ch16-concurrency", "languages": ["zh"] },
+          { "title": "Ch 17 · Data Persistence: Why Relational Is Brilliant", "source": "ch17-databases.md", "link": "/book/stage-2-advanced/ch17-databases", "languages": ["zh"] }
         ]
       },
       {
         "id": "engineering-practice-2",
         "label": "Engineering Practice / 工程实践",
         "sections": [
-          { "title": "Ch 18 · Architecture Patterns", "source": "ch18-architecture-patterns.md", "link": "/book/stage-2-advanced/ch18-architecture-patterns" },
-          { "title": "Ch 19 · Security: Threat Modeling Thinking", "source": "ch19-security.md", "link": "/book/stage-2-advanced/ch19-security" },
-          { "title": "Ch 20 · Testing Strategy & Observability", "source": "ch20-testing-observability.md", "link": "/book/stage-2-advanced/ch20-testing-observability" }
+          { "title": "Ch 18 · Architecture Patterns", "source": "ch18-architecture-patterns.md", "link": "/book/stage-2-advanced/ch18-architecture-patterns", "languages": ["zh"] },
+          { "title": "Ch 19 · Security: Threat Modeling Thinking", "source": "ch19-security.md", "link": "/book/stage-2-advanced/ch19-security", "languages": ["zh"] },
+          { "title": "Ch 20 · Testing Strategy & Observability", "source": "ch20-testing-observability.md", "link": "/book/stage-2-advanced/ch20-testing-observability", "languages": ["zh"] }
         ]
       }
     ]
@@ -90,41 +90,41 @@
         "id": "computational-thinking-3",
         "label": "Computational Thinking / 计算思维",
         "sections": [
-          { "title": "Ch 21 · Complexity & Limits of Computation", "source": "ch21-complexity.md", "link": "/book/stage-3-expert/ch21-complexity" },
-          { "title": "Ch 22 · Information Theory: Entropy & Encoding", "source": "ch22-information-theory.md", "link": "/book/stage-3-expert/ch22-information-theory" }
+          { "title": "Ch 21 · Complexity & Limits of Computation", "source": "ch21-complexity.md", "link": "/book/stage-3-expert/ch21-complexity", "languages": ["zh"] },
+          { "title": "Ch 22 · Information Theory: Entropy & Encoding", "source": "ch22-information-theory.md", "link": "/book/stage-3-expert/ch22-information-theory", "languages": ["zh"] }
         ]
       },
       {
         "id": "ai-depth-3",
         "label": "AI Depth / AI深化",
         "sections": [
-          { "title": "Ch 23 · Deep Learning Architectures", "source": "ch23-deep-learning.md", "link": "/book/stage-3-expert/ch23-deep-learning" },
-          { "title": "Ch 24 · How Large Language Models Work", "source": "ch24-llm.md", "link": "/book/stage-3-expert/ch24-llm" },
-          { "title": "Ch 25 · AI Systems Engineering", "source": "ch25-ai-engineering.md", "link": "/book/stage-3-expert/ch25-ai-engineering" }
+          { "title": "Ch 23 · Deep Learning Architectures", "source": "ch23-deep-learning.md", "link": "/book/stage-3-expert/ch23-deep-learning", "languages": ["zh"] },
+          { "title": "Ch 24 · How Large Language Models Work", "source": "ch24-llm.md", "link": "/book/stage-3-expert/ch24-llm", "languages": ["zh"] },
+          { "title": "Ch 25 · AI Systems Engineering", "source": "ch25-ai-engineering.md", "link": "/book/stage-3-expert/ch25-ai-engineering", "languages": ["zh"] }
         ]
       },
       {
         "id": "systems-thinking-3",
         "label": "Systems Thinking / 系统思维",
         "sections": [
-          { "title": "Ch 26 · Distributed Systems: Consistency & Evolution", "source": "ch26-distributed-systems.md", "link": "/book/stage-3-expert/ch26-distributed-systems" },
-          { "title": "Ch 27 · Performance Analysis & System Tuning", "source": "ch27-performance.md", "link": "/book/stage-3-expert/ch27-performance" }
+          { "title": "Ch 26 · Distributed Systems: Consistency & Evolution", "source": "ch26-distributed-systems.md", "link": "/book/stage-3-expert/ch26-distributed-systems", "languages": ["zh"] },
+          { "title": "Ch 27 · Performance Analysis & System Tuning", "source": "ch27-performance.md", "link": "/book/stage-3-expert/ch27-performance", "languages": ["zh"] }
         ]
       },
       {
         "id": "engineering-practice-3",
         "label": "Engineering Practice / 工程实践",
         "sections": [
-          { "title": "Ch 28 · System Design Methodology", "source": "ch28-system-design.md", "link": "/book/stage-3-expert/ch28-system-design" },
-          { "title": "Ch 29 · Technology Selection & Engineering Judgment", "source": "ch29-tech-selection.md", "link": "/book/stage-3-expert/ch29-tech-selection" }
+          { "title": "Ch 28 · System Design Methodology", "source": "ch28-system-design.md", "link": "/book/stage-3-expert/ch28-system-design", "languages": ["zh"] },
+          { "title": "Ch 29 · Technology Selection & Engineering Judgment", "source": "ch29-tech-selection.md", "link": "/book/stage-3-expert/ch29-tech-selection", "languages": ["zh"] }
         ]
       },
       {
         "id": "closing",
         "label": "Closing / 尾章",
         "sections": [
-          { "title": "Ch 30 · Learning Methods in Rapid Change", "source": "ch30-learning-methods.md", "link": "/book/stage-3-expert/ch30-learning-methods" },
-          { "title": "Ch 31 · Next Steps on Three Paths", "source": "ch31-next-steps.md", "link": "/book/stage-3-expert/ch31-next-steps" }
+          { "title": "Ch 30 · Learning Methods in Rapid Change", "source": "ch30-learning-methods.md", "link": "/book/stage-3-expert/ch30-learning-methods", "languages": ["zh"] },
+          { "title": "Ch 31 · Next Steps on Three Paths", "source": "ch31-next-steps.md", "link": "/book/stage-3-expert/ch31-next-steps", "languages": ["zh"] }
         ]
       }
     ]
@@ -138,9 +138,9 @@
         "id": "web-ext-pack",
         "label": "SE Track Extensions / SE路线扩展",
         "sections": [
-          { "title": "Web Ext I · HTTP, REST & Full-Stack Basics", "source": "web-ext-1.md", "link": "/book/web-extensions/web-ext-1" },
-          { "title": "Web Ext II · Backend Architecture, DB & Frontend", "source": "web-ext-2.md", "link": "/book/web-extensions/web-ext-2" },
-          { "title": "Web Ext III · High-Availability, Data & Cloud Native", "source": "web-ext-3.md", "link": "/book/web-extensions/web-ext-3" }
+          { "title": "Web Ext I · HTTP, REST & Full-Stack Basics", "source": "web-ext-1.md", "link": "/book/web-extensions/web-ext-1", "languages": ["zh"] },
+          { "title": "Web Ext II · Backend Architecture, DB & Frontend", "source": "web-ext-2.md", "link": "/book/web-extensions/web-ext-2", "languages": ["zh"] },
+          { "title": "Web Ext III · High-Availability, Data & Cloud Native", "source": "web-ext-3.md", "link": "/book/web-extensions/web-ext-3", "languages": ["zh"] }
         ]
       }
     ]
