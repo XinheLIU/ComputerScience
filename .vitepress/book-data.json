@@ -154,7 +154,8 @@
         "id": "orientation",
         "label": "Orientation / 导读",
         "sections": [
-          { "title": "Programming", "source": "README.md", "link": "/book/01-foundations/01-orientation/programming" }
+          { "title": "Programming", "source": "README.md", "link": "/book/01-foundations/01-orientation/programming" },
+          { "title": "Programming Tools Map", "source": "Programming_Tools_Map.md", "link": "/book/01-foundations/01-orientation/programming-tools-map" }
         ]
       },
       {
@@ -198,19 +199,22 @@
         "label": "OS & Linux / 操作系统与Linux",
         "sections": [
           { "title": "Linux Notes", "source": "Linux.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-notes" },
+          { "title": "Operating Systems", "source": "Operating_Systems_ZH.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/operating-systems", "languages": ["zh"] },
           { "title": "Linux Overview", "source": "linux/ReadMe.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-overview" },
           { "title": "Command Line", "source": "linux/command-line.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/command-line" },
           { "title": "Linux Debugging", "source": "linux/debugging.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-debugging", "languages": ["en", "zh"], "legacyLanguage": "en" },
           { "title": "File System", "source": "linux/file-system.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/file-system" },
           { "title": "Shell", "source": "linux/shell.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/shell" },
-          { "title": "Emacs", "source": "linux/emacs-vim/emacs.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/emacs" }
+          { "title": "Emacs", "source": "linux/emacs-vim/emacs.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/emacs" },
+          { "title": "Other Operating Systems", "source": "Other_Operating_Systems.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/other-operating-systems" }
         ]
       },
       {
         "id": "networks-and-web",
         "label": "Networks & Web / 网络与Web",
         "sections": [
-          { "title": "Web Development & Networking", "source": "Web Development & Networking.md", "link": "/book/03-systems-and-data/02-networks-and-web/web-development-and-networking" }
+          { "title": "Web Development & Networking", "source": "Web Development & Networking.md", "link": "/book/03-systems-and-data/02-networks-and-web/web-development-and-networking" },
+          { "title": "Networks", "source": "Networks_ZH.md", "link": "/book/03-systems-and-data/02-networks-and-web/networks", "languages": ["zh"] }
         ]
       },
       {
@@ -248,6 +252,7 @@
         "id": "design-patterns",
         "label": "Design Patterns / 设计模式",
         "sections": [
+          { "title": "Design Principles", "source": "Design_Pattern_Principles.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-principles" },
           { "title": "Design Patterns — Comprehensive", "source": "Design Patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-patterns-comprehensive" },
           { "title": "Design Patterns — Overview", "source": "design-and-architecture/design-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-patterns-overview" },
           { "title": "Creational Patterns", "source": "design-and-architecture/design-patterns/creational-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/creational-patterns" },
@@ -273,14 +278,27 @@
           { "title": "Service-Oriented Architecture", "source": "design-and-architecture/service-oriented-architecture.md", "link": "/book/04-design-and-architecture/04-distributed-systems/service-oriented-architecture" },
           { "title": "Distributed System", "source": "design-and-architecture/service-oriented-architecture/distributed-system.md", "link": "/book/04-design-and-architecture/04-distributed-systems/distributed-system" },
           { "title": "Microservices", "source": "design-and-architecture/service-oriented-architecture/microservices.md", "link": "/book/04-design-and-architecture/04-distributed-systems/microservices" },
-          { "title": "Database and Cache", "source": "design-and-architecture/service-oriented-architecture/database-and-cache.md", "link": "/book/04-design-and-architecture/04-distributed-systems/database-and-cache" }
+          { "title": "Database and Cache", "source": "design-and-architecture/service-oriented-architecture/database-and-cache.md", "link": "/book/04-design-and-architecture/04-distributed-systems/database-and-cache" },
+          { "title": "REST Architecture for SOA", "source": "REST_Architecture_For_SOA.md", "link": "/book/04-design-and-architecture/04-distributed-systems/rest-architecture-for-soa" },
+          { "title": "Web Services", "source": "Web_Services.md", "link": "/book/04-design-and-architecture/04-distributed-systems/web-services" },
+          { "title": "Web Technologies", "source": "Web_Technologies.md", "link": "/book/04-design-and-architecture/04-distributed-systems/web-technologies" }
         ]
       },
       {
         "id": "environment-and-tools",
         "label": "Environment & Tools / 环境与工具",
         "sections": [
-          { "title": "Git", "source": "Git.md", "link": "/book/01-foundations/01-environment-and-tools/git/git", "languages": ["en", "zh"] },
+          {
+            "title": "Git",
+            "source": "Git.md",
+            "link": "/book/01-foundations/01-environment-and-tools/git/git",
+            "languages": ["en", "zh"],
+            "items": [
+              { "title": "Git Visualization Tools", "source": "Git_Syllabus_2.md", "link": "/book/01-foundations/01-environment-and-tools/git/git-syllabus-2" },
+              { "title": "Git Workflow Management", "source": "Git_Syllabus_3.md", "link": "/book/01-foundations/01-environment-and-tools/git/git-syllabus-3" },
+              { "title": "Git References", "source": "Git_References.md", "link": "/book/01-foundations/01-environment-and-tools/git/references" }
+            ]
+          },
           {
             "title": "Vim",
             "source": "Vim.md",
@@ -293,7 +311,9 @@
               { "title": "Vimscript", "source": "vim-advanced.md", "link": "/book/01-foundations/01-environment-and-tools/vim/vimscript" }
             ]
           },
-          { "title": "Cursor", "source": "Cursor.md", "link": "/book/01-foundations/01-environment-and-tools/cursor" }
+          { "title": "Cursor", "source": "Cursor.md", "link": "/book/01-foundations/01-environment-and-tools/cursor" },
+          { "title": "Working Environment Setup", "source": "Working_Environment_Setup.md", "link": "/book/01-foundations/01-environment-and-tools/working-environment-setup" },
+          { "title": "Programming Tools", "source": "Programming_Tools_ZH.md", "link": "/book/05-engineering-practice/01-environment-and-tools/programming-tools", "languages": ["zh"] }
         ]
       },
       {

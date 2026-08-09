@@ -1,4 +1,4 @@
-
+Last updated: 2026-08-09
 
 ## Visualization Tools
 ### TUI:Lazy Git
@@ -30,4 +30,3 @@ git pull --rebase 的使用场景和效果
 ### Git Lens
 
 ## Git Worktrees
-

@@ -1,6 +1,6 @@
 # Programming
 
-Last updated: 2026-07-21
+Last updated: 2026-08-09
 
 A "Programmer" can be a path to any professional or non-professional user that writes program including Software Development Engineers(SDE), Machine Learning Engineers, Big Data Engineers, Data Scientists... all share some common fundation knowledge and skills.
 
@@ -21,7 +21,7 @@ A "Programmer" can be a path to any professional or non-professional user that w
       - Javascript
     - Back-end
   - Tools
-    - [Git and Github](/en/book/05-engineering-practice/01-environment-and-tools/git)
+    - [Git and Github](/en/book/01-foundations/01-environment-and-tools/git/git)
     - [Regular Expression](/en/book/02-programming/02-quality-and-correctness/regular-expressions)
 - Database
   - [Relational Database and SQL](/en/book/03-systems-and-data/03-databases-and-sql/sql)
