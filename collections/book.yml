@@ -1,0 +1,37 @@
+# Book navigation and publication manifest for Computer Science Notes.
+# Contract: https://github.com/XinheLIU/XinheLIU.github.io/blob/source/docs/architecture/CONTENT-CONTRACT.md
+# Initial adoption covers chapters that already exist in both locales.
+# The stage-based restructure (en/book/stage-*) is in progress and will be
+# added to this manifest once its zh counterparts land.
+id: computer-science
+items:
+  - id: computer-systems
+    source:
+      en: en/book/01-foundations/02-computing-foundations/computer-systems.md
+      zh-CN: zh/book/01-foundations/02-computing-foundations/computer-systems.md
+    part: foundations
+    order: 1.1
+    route:
+      en: /ComputerScience/en/book/01-foundations/02-computing-foundations/computer-systems.html
+      zh-CN: /ComputerScience/zh/book/01-foundations/02-computing-foundations/computer-systems.html
+    layout: chapter
+  - id: software
+    source:
+      en: en/book/01-foundations/02-computing-foundations/software.md
+      zh-CN: zh/book/01-foundations/02-computing-foundations/software.md
+    part: foundations
+    order: 1.2
+    route:
+      en: /ComputerScience/en/book/01-foundations/02-computing-foundations/software.html
+      zh-CN: /ComputerScience/zh/book/01-foundations/02-computing-foundations/software.html
+    layout: chapter
+  - id: git
+    source:
+      en: en/book/01-foundations/01-environment-and-tools/git/git.md
+      zh-CN: zh/book/01-foundations/01-environment-and-tools/git/git.md
+    part: foundations
+    order: 1.3
+    route:
+      en: /ComputerScience/en/book/01-foundations/01-environment-and-tools/git/git.html
+      zh-CN: /ComputerScience/zh/book/01-foundations/01-environment-and-tools/git/git.html
+    layout: chapter
