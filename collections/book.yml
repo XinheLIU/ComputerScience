@@ -1,37 +1,808 @@
-# Book navigation and publication manifest for Computer Science Notes.
-# Contract: https://github.com/XinheLIU/XinheLIU.github.io/blob/source/docs/architecture/CONTENT-CONTRACT.md
-# Initial adoption covers chapters that already exist in both locales.
-# The stage-based restructure (en/book/stage-*) is in progress and will be
-# added to this manifest once its zh counterparts land.
+# Book navigation and publication manifest for Computer Science Tutorial.
+# Last updated: 2026-10-17
 id: computer-science
 items:
+  - id: quick-start-guide
+    source:
+      en: en/book/01-quick-start/00-guide/quick-start-guide.md
+      zh-CN: zh/book/01-quick-start/00-guide/quick-start-guide.md
+    part: quick-start
+    order: 1001
+    route:
+      en: /ComputerScience/en/book/01-quick-start/00-guide/quick-start-guide.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/00-guide/quick-start-guide.html
+    layout: chapter
+  - id: foundation-your-computer
+    source:
+      en: en/book/01-quick-start/01-computing/your-computer.md
+      zh-CN: zh/book/01-quick-start/01-computing/your-computer.md
+    part: quick-start
+    order: 1002
+    route:
+      en: /ComputerScience/en/book/01-quick-start/01-computing/your-computer.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/01-computing/your-computer.html
+    layout: chapter
+  - id: foundation-internet-web
+    source:
+      en: en/book/01-quick-start/01-computing/internet-and-web.md
+      zh-CN: zh/book/01-quick-start/01-computing/internet-and-web.md
+    part: quick-start
+    order: 1003
+    route:
+      en: /ComputerScience/en/book/01-quick-start/01-computing/internet-and-web.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/01-computing/internet-and-web.html
+    layout: chapter
+  - id: foundation-developer-toolkit
+    source:
+      en: en/book/01-quick-start/02-environment/developer-toolkit.md
+      zh-CN: zh/book/01-quick-start/02-environment/developer-toolkit.md
+    part: quick-start
+    order: 1004
+    route:
+      en: /ComputerScience/en/book/01-quick-start/02-environment/developer-toolkit.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/02-environment/developer-toolkit.html
+    layout: chapter
+  - id: foundation-frontend-intro
+    source:
+      en: en/book/01-quick-start/03-frontend/frontend-intro.md
+      zh-CN: zh/book/01-quick-start/03-frontend/frontend-intro.md
+    part: quick-start
+    order: 1007
+    route:
+      en: /ComputerScience/en/book/01-quick-start/03-frontend/frontend-intro.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/03-frontend/frontend-intro.html
+    layout: chapter
+  - id: foundation-html-css
+    source:
+      en: en/book/01-quick-start/03-frontend/html-css.md
+      zh-CN: zh/book/01-quick-start/03-frontend/html-css.md
+    part: quick-start
+    order: 1008
+    route:
+      en: /ComputerScience/en/book/01-quick-start/03-frontend/html-css.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/03-frontend/html-css.html
+    layout: chapter
+  - id: foundation-javascript-dom
+    source:
+      en: en/book/01-quick-start/03-frontend/javascript-dom.md
+      zh-CN: zh/book/01-quick-start/03-frontend/javascript-dom.md
+    part: quick-start
+    order: 1009
+    route:
+      en: /ComputerScience/en/book/01-quick-start/03-frontend/javascript-dom.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/03-frontend/javascript-dom.html
+    layout: chapter
+  - id: foundation-frameworks
+    source:
+      en: en/book/01-quick-start/03-frontend/frameworks.md
+      zh-CN: zh/book/01-quick-start/03-frontend/frameworks.md
+    part: quick-start
+    order: 1010
+    route:
+      en: /ComputerScience/en/book/01-quick-start/03-frontend/frameworks.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/03-frontend/frameworks.html
+    layout: chapter
+  - id: python
+    source:
+      en: en/book/01-quick-start/04-python/python.md
+      zh-CN: zh/book/01-quick-start/04-python/python.md
+    part: quick-start
+    order: 1011
+    route:
+      en: /ComputerScience/en/book/01-quick-start/04-python/python.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/04-python/python.html
+    layout: chapter
+  - id: foundation-python-environments
+    source:
+      en: en/book/01-quick-start/04-python/environments.md
+      zh-CN: zh/book/01-quick-start/04-python/environments.md
+    part: quick-start
+    order: 1012
+    route:
+      en: /ComputerScience/en/book/01-quick-start/04-python/environments.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/04-python/environments.html
+    layout: chapter
+  - id: foundation-python-packages
+    source:
+      en: en/book/01-quick-start/04-python/packages.md
+      zh-CN: zh/book/01-quick-start/04-python/packages.md
+    part: quick-start
+    order: 1013
+    route:
+      en: /ComputerScience/en/book/01-quick-start/04-python/packages.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/04-python/packages.html
+    layout: chapter
+  - id: foundation-http-api
+    source:
+      en: en/book/01-quick-start/05-api-data/http-api.md
+      zh-CN: zh/book/01-quick-start/05-api-data/http-api.md
+    part: quick-start
+    order: 1014
+    route:
+      en: /ComputerScience/en/book/01-quick-start/05-api-data/http-api.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/05-api-data/http-api.html
+    layout: chapter
+  - id: foundation-fastapi
+    source:
+      en: en/book/01-quick-start/05-api-data/fastapi.md
+      zh-CN: zh/book/01-quick-start/05-api-data/fastapi.md
+    part: quick-start
+    order: 1015
+    route:
+      en: /ComputerScience/en/book/01-quick-start/05-api-data/fastapi.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/05-api-data/fastapi.html
+    layout: chapter
+  - id: foundation-sqlite
+    source:
+      en: en/book/01-quick-start/05-api-data/sqlite.md
+      zh-CN: zh/book/01-quick-start/05-api-data/sqlite.md
+    part: quick-start
+    order: 1016
+    route:
+      en: /ComputerScience/en/book/01-quick-start/05-api-data/sqlite.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/05-api-data/sqlite.html
+    layout: chapter
+  - id: full-stack-prototype
+    source:
+      en: en/book/01-quick-start/06-shipping/full-stack-prototype.md
+      zh-CN: zh/book/01-quick-start/06-shipping/full-stack-prototype.md
+    part: quick-start
+    order: 1017
+    route:
+      en: /ComputerScience/en/book/01-quick-start/06-shipping/full-stack-prototype.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/06-shipping/full-stack-prototype.html
+    layout: chapter
+  - id: foundation-linux-deployment
+    source:
+      en: en/book/01-quick-start/06-shipping/linux-deployment.md
+      zh-CN: zh/book/01-quick-start/06-shipping/linux-deployment.md
+    part: quick-start
+    order: 1018
+    route:
+      en: /ComputerScience/en/book/01-quick-start/06-shipping/linux-deployment.html
+      zh-CN: /ComputerScience/zh/book/01-quick-start/06-shipping/linux-deployment.html
+    layout: chapter
+  - id: topic-guide
+    source:
+      en: en/book/02-topics/00-guide/topic-guide.md
+      zh-CN: zh/book/02-topics/00-guide/topic-guide.md
+    part: topics
+    order: 2001
+    route:
+      en: /ComputerScience/en/book/02-topics/00-guide/topic-guide.html
+      zh-CN: /ComputerScience/zh/book/02-topics/00-guide/topic-guide.html
+    layout: chapter
+  - id: programming
+    source:
+      en: en/book/02-topics/01-programming/programming.md
+    part: topics
+    order: 2002
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/programming.html
+    layout: chapter
+  - id: programming-basics
+    source:
+      en: en/book/02-topics/01-programming/programming-basics.md
+    part: topics
+    order: 2003
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/programming-basics.html
+    layout: chapter
+  - id: programming-paradigms
+    source:
+      en: en/book/02-topics/01-programming/programming-paradigms.md
+    part: topics
+    order: 2004
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/programming-paradigms.html
+    layout: chapter
+  - id: type-systems
+    source:
+      en: en/book/02-topics/01-programming/type-systems.md
+    part: topics
+    order: 2005
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/type-systems.html
+    layout: chapter
+  - id: object-oriented-programming
+    source:
+      en: en/book/02-topics/01-programming/object-oriented-programming.md
+    part: topics
+    order: 2006
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/object-oriented-programming.html
+    layout: chapter
+  - id: regular-expressions
+    source:
+      en: en/book/02-topics/01-programming/regular-expressions.md
+    part: topics
+    order: 2007
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/regular-expressions.html
+    layout: chapter
+  - id: java
+    source:
+      en: en/book/02-topics/01-programming/java.md
+    part: topics
+    order: 2008
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/java.html
+    layout: chapter
+  - id: go
+    source:
+      en: en/book/02-topics/01-programming/go.md
+    part: topics
+    order: 2009
+    route:
+      en: /ComputerScience/en/book/02-topics/01-programming/go.html
+    layout: chapter
+  - id: data-structures-and-algorithms
+    source:
+      en: en/book/02-topics/02-algorithms/data-structures-and-algorithms.md
+    part: topics
+    order: 2010
+    route:
+      en: /ComputerScience/en/book/02-topics/02-algorithms/data-structures-and-algorithms.html
+    layout: chapter
+  - id: algorithms
+    source:
+      en: en/book/02-topics/02-algorithms/algorithms.md
+    part: topics
+    order: 2011
+    route:
+      en: /ComputerScience/en/book/02-topics/02-algorithms/algorithms.html
+    layout: chapter
+  - id: algorithm-design
+    source:
+      en: en/book/02-topics/02-algorithms/algorithm-design.md
+    part: topics
+    order: 2012
+    route:
+      en: /ComputerScience/en/book/02-topics/02-algorithms/algorithm-design.html
+    layout: chapter
+  - id: complexity
+    source:
+      en: en/book/02-topics/02-algorithms/complexity.md
+    part: topics
+    order: 2013
+    route:
+      en: /ComputerScience/en/book/02-topics/02-algorithms/complexity.html
+    layout: chapter
+  - id: probability
+    source:
+      en: en/book/02-topics/03-mathematics/probability.md
+    part: topics
+    order: 2014
+    route:
+      en: /ComputerScience/en/book/02-topics/03-mathematics/probability.html
+    layout: chapter
+  - id: linear-algebra
+    source:
+      en: en/book/02-topics/03-mathematics/linear-algebra.md
+    part: topics
+    order: 2015
+    route:
+      en: /ComputerScience/en/book/02-topics/03-mathematics/linear-algebra.html
+    layout: chapter
+  - id: information-theory
+    source:
+      en: en/book/02-topics/03-mathematics/information-theory.md
+    part: topics
+    order: 2016
+    route:
+      en: /ComputerScience/en/book/02-topics/03-mathematics/information-theory.html
+    layout: chapter
   - id: computer-systems
     source:
-      en: en/book/01-foundations/02-computing-foundations/computer-systems.md
-      zh-CN: zh/book/01-foundations/02-computing-foundations/computer-systems.md
-    part: foundations
-    order: 1.1
+      en: en/book/02-topics/04-computer-systems/computer-systems.md
+      zh-CN: zh/book/02-topics/04-computer-systems/computer-systems.md
+    part: topics
+    order: 2017
     route:
-      en: /ComputerScience/en/book/01-foundations/02-computing-foundations/computer-systems.html
-      zh-CN: /ComputerScience/zh/book/01-foundations/02-computing-foundations/computer-systems.html
+      en: /ComputerScience/en/book/02-topics/04-computer-systems/computer-systems.html
+      zh-CN: /ComputerScience/zh/book/02-topics/04-computer-systems/computer-systems.html
+    layout: chapter
+  - id: hardware
+    source:
+      zh-CN: zh/book/02-topics/04-computer-systems/hardware.md
+    part: topics
+    order: 2018
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/04-computer-systems/hardware.html
     layout: chapter
   - id: software
     source:
-      en: en/book/01-foundations/02-computing-foundations/software.md
-      zh-CN: zh/book/01-foundations/02-computing-foundations/software.md
-    part: foundations
-    order: 1.2
+      en: en/book/02-topics/04-computer-systems/software.md
+      zh-CN: zh/book/02-topics/04-computer-systems/software.md
+    part: topics
+    order: 2019
     route:
-      en: /ComputerScience/en/book/01-foundations/02-computing-foundations/software.html
-      zh-CN: /ComputerScience/zh/book/01-foundations/02-computing-foundations/software.html
+      en: /ComputerScience/en/book/02-topics/04-computer-systems/software.html
+      zh-CN: /ComputerScience/zh/book/02-topics/04-computer-systems/software.html
+    layout: chapter
+  - id: operating-systems
+    source:
+      en: en/book/02-topics/04-computer-systems/operating-systems.md
+      zh-CN: zh/book/02-topics/04-computer-systems/operating-systems.md
+    part: topics
+    order: 2020
+    route:
+      en: /ComputerScience/en/book/02-topics/04-computer-systems/operating-systems.html
+      zh-CN: /ComputerScience/zh/book/02-topics/04-computer-systems/operating-systems.html
+    layout: chapter
+  - id: file-system
+    source:
+      en: en/book/02-topics/04-computer-systems/file-system.md
+    part: topics
+    order: 2021
+    route:
+      en: /ComputerScience/en/book/02-topics/04-computer-systems/file-system.html
+    layout: chapter
+  - id: concurrency
+    source:
+      en: en/book/02-topics/04-computer-systems/concurrency.md
+    part: topics
+    order: 2022
+    route:
+      en: /ComputerScience/en/book/02-topics/04-computer-systems/concurrency.html
+    layout: chapter
+  - id: networks
+    source:
+      en: en/book/02-topics/05-networks/networks.md
+      zh-CN: zh/book/02-topics/05-networks/networks.md
+    part: topics
+    order: 2023
+    route:
+      en: /ComputerScience/en/book/02-topics/05-networks/networks.html
+      zh-CN: /ComputerScience/zh/book/02-topics/05-networks/networks.html
+    layout: chapter
+  - id: http
+    source:
+      en: en/book/02-topics/05-networks/http.md
+    part: topics
+    order: 2024
+    route:
+      en: /ComputerScience/en/book/02-topics/05-networks/http.html
+    layout: chapter
+  - id: data-and-privacy
+    source:
+      zh-CN: zh/book/02-topics/05-networks/data-and-privacy.md
+    part: topics
+    order: 2025
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/05-networks/data-and-privacy.html
+    layout: chapter
+  - id: web-communication
+    source:
+      en: en/book/02-topics/05-networks/web-communication.md
+      zh-CN: zh/book/02-topics/05-networks/web-communication.md
+    part: topics
+    order: 2026
+    route:
+      en: /ComputerScience/en/book/02-topics/05-networks/web-communication.html
+      zh-CN: /ComputerScience/zh/book/02-topics/05-networks/web-communication.html
+    layout: chapter
+  - id: browser-and-components
+    source:
+      en: en/book/02-topics/06-frontend/browser-and-components.md
+    part: topics
+    order: 2026
+    route:
+      en: /ComputerScience/en/book/02-topics/06-frontend/browser-and-components.html
+    layout: chapter
+  - id: frontend-roadmap
+    source:
+      en: en/book/02-topics/06-frontend/frontend-roadmap.md
+    part: topics
+    order: 2027
+    route:
+      en: /ComputerScience/en/book/02-topics/06-frontend/frontend-roadmap.html
+    layout: chapter
+  - id: request-lifecycle
+    source:
+      en: en/book/02-topics/07-backend/request-lifecycle.md
+    part: topics
+    order: 2028
+    route:
+      en: /ComputerScience/en/book/02-topics/07-backend/request-lifecycle.html
+    layout: chapter
+  - id: backend-frameworks
+    source:
+      en: en/book/02-topics/07-backend/backend-frameworks.md
+    part: topics
+    order: 2029
+    route:
+      en: /ComputerScience/en/book/02-topics/07-backend/backend-frameworks.html
+    layout: chapter
+  - id: flask
+    source:
+      en: en/book/02-topics/07-backend/flask.md
+    part: topics
+    order: 2030
+    route:
+      en: /ComputerScience/en/book/02-topics/07-backend/flask.html
+    layout: chapter
+  - id: rest-architecture-for-soa
+    source:
+      en: en/book/02-topics/07-backend/rest-architecture-for-soa.md
+    part: topics
+    order: 2031
+    route:
+      en: /ComputerScience/en/book/02-topics/07-backend/rest-architecture-for-soa.html
+    layout: chapter
+  - id: web-services
+    source:
+      en: en/book/02-topics/07-backend/web-services.md
+    part: topics
+    order: 2032
+    route:
+      en: /ComputerScience/en/book/02-topics/07-backend/web-services.html
+    layout: chapter
+  - id: database
+    source:
+      en: en/book/02-topics/08-data/database.md
+    part: topics
+    order: 2033
+    route:
+      en: /ComputerScience/en/book/02-topics/08-data/database.html
+    layout: chapter
+  - id: sql
+    source:
+      en: en/book/02-topics/08-data/sql.md
+    part: topics
+    order: 2034
+    route:
+      en: /ComputerScience/en/book/02-topics/08-data/sql.html
+    layout: chapter
+  - id: ddl
+    source:
+      en: en/book/02-topics/08-data/ddl.md
+    part: topics
+    order: 2035
+    route:
+      en: /ComputerScience/en/book/02-topics/08-data/ddl.html
+    layout: chapter
+  - id: dml-dcl
+    source:
+      en: en/book/02-topics/08-data/dml-dcl.md
+    part: topics
+    order: 2036
+    route:
+      en: /ComputerScience/en/book/02-topics/08-data/dml-dcl.html
+    layout: chapter
+  - id: sql-execution
+    source:
+      en: en/book/02-topics/08-data/sql-execution.md
+    part: topics
+    order: 2037
+    route:
+      en: /ComputerScience/en/book/02-topics/08-data/sql-execution.html
+    layout: chapter
+  - id: database-and-cache
+    source:
+      en: en/book/02-topics/08-data/database-and-cache.md
+    part: topics
+    order: 2038
+    route:
+      en: /ComputerScience/en/book/02-topics/08-data/database-and-cache.html
+    layout: chapter
+  - id: software-design
+    source:
+      en: en/book/02-topics/09-software-design/software-design.md
+    part: topics
+    order: 2039
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/software-design.html
+    layout: chapter
+  - id: design-overview
+    source:
+      en: en/book/02-topics/09-software-design/design-overview.md
+    part: topics
+    order: 2040
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/design-overview.html
+    layout: chapter
+  - id: design-principles
+    source:
+      en: en/book/02-topics/09-software-design/design-principles.md
+    part: topics
+    order: 2041
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/design-principles.html
+    layout: chapter
+  - id: uml-unified-modeling-language
+    source:
+      en: en/book/02-topics/09-software-design/uml-unified-modeling-language.md
+    part: topics
+    order: 2042
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/uml-unified-modeling-language.html
+    layout: chapter
+  - id: code-quality
+    source:
+      en: en/book/02-topics/09-software-design/code-quality.md
+    part: topics
+    order: 2043
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/code-quality.html
+    layout: chapter
+  - id: design-patterns-overview
+    source:
+      en: en/book/02-topics/09-software-design/design-patterns-overview.md
+    part: topics
+    order: 2044
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/design-patterns-overview.html
+    layout: chapter
+  - id: creational-patterns
+    source:
+      en: en/book/02-topics/09-software-design/creational-patterns.md
+    part: topics
+    order: 2045
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/creational-patterns.html
+    layout: chapter
+  - id: structural-patterns
+    source:
+      en: en/book/02-topics/09-software-design/structural-patterns.md
+    part: topics
+    order: 2046
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/structural-patterns.html
+    layout: chapter
+  - id: behavioral-patterns
+    source:
+      en: en/book/02-topics/09-software-design/behavioral-patterns.md
+    part: topics
+    order: 2047
+    route:
+      en: /ComputerScience/en/book/02-topics/09-software-design/behavioral-patterns.html
+    layout: chapter
+  - id: programming-tools-map
+    source:
+      en: en/book/02-topics/10-developer-tools/programming-tools-map.md
+    part: topics
+    order: 2048
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/programming-tools-map.html
+    layout: chapter
+  - id: working-environment-setup
+    source:
+      en: en/book/02-topics/10-developer-tools/working-environment-setup.md
+    part: topics
+    order: 2049
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/working-environment-setup.html
+    layout: chapter
+  - id: command-line
+    source:
+      en: en/book/02-topics/10-developer-tools/command-line.md
+    part: topics
+    order: 2050
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/command-line.html
+    layout: chapter
+  - id: shell
+    source:
+      en: en/book/02-topics/10-developer-tools/shell.md
+    part: topics
+    order: 2051
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/shell.html
+    layout: chapter
+  - id: shell-scripting
+    source:
+      en: en/book/02-topics/10-developer-tools/shell-scripting.md
+    part: topics
+    order: 2052
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/shell-scripting.html
     layout: chapter
   - id: git
     source:
-      en: en/book/01-foundations/01-environment-and-tools/git/git.md
-      zh-CN: zh/book/01-foundations/01-environment-and-tools/git/git.md
-    part: foundations
-    order: 1.3
+      en: en/book/02-topics/10-developer-tools/git-reference.md
+      zh-CN: zh/book/02-topics/10-developer-tools/git-reference.md
+    part: topics
+    order: 2053
     route:
-      en: /ComputerScience/en/book/01-foundations/01-environment-and-tools/git/git.html
-      zh-CN: /ComputerScience/zh/book/01-foundations/01-environment-and-tools/git/git.html
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/git-reference.html
+      zh-CN: /ComputerScience/zh/book/02-topics/10-developer-tools/git-reference.html
+    layout: chapter
+  - id: git-deep-dive
+    source:
+      en: en/book/02-topics/10-developer-tools/git-deep-dive.md
+      zh-CN: zh/book/02-topics/10-developer-tools/git-deep-dive.md
+    part: topics
+    order: 2054
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/git-deep-dive.html
+      zh-CN: /ComputerScience/zh/book/02-topics/10-developer-tools/git-deep-dive.html
+    layout: chapter
+  - id: vim
+    source:
+      en: en/book/02-topics/10-developer-tools/vim.md
+    part: topics
+    order: 2055
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/vim.html
+    layout: chapter
+  - id: vim-workflows
+    source:
+      en: en/book/02-topics/10-developer-tools/vim-workflows.md
+    part: topics
+    order: 2056
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/vim-workflows.html
+    layout: chapter
+  - id: vim-configuration
+    source:
+      en: en/book/02-topics/10-developer-tools/vim-configuration.md
+    part: topics
+    order: 2057
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/vim-configuration.html
+    layout: chapter
+  - id: vim-plugins
+    source:
+      en: en/book/02-topics/10-developer-tools/vim-plugins.md
+    part: topics
+    order: 2058
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/vim-plugins.html
+    layout: chapter
+  - id: vimscript
+    source:
+      en: en/book/02-topics/10-developer-tools/vimscript.md
+    part: topics
+    order: 2059
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/vimscript.html
+    layout: chapter
+  - id: emacs
+    source:
+      en: en/book/02-topics/10-developer-tools/emacs.md
+    part: topics
+    order: 2060
+    route:
+      en: /ComputerScience/en/book/02-topics/10-developer-tools/emacs.html
+    layout: chapter
+  - id: practice-frontiers-guide
+    source:
+      en: en/book/03-practice-frontiers/00-guide/practice-frontiers-guide.md
+      zh-CN: zh/book/03-practice-frontiers/00-guide/practice-frontiers-guide.md
+    part: practice-frontiers
+    order: 3001
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/00-guide/practice-frontiers-guide.html
+      zh-CN: /ComputerScience/zh/book/03-practice-frontiers/00-guide/practice-frontiers-guide.html
+    layout: chapter
+  - id: software-architecture
+    source:
+      en: en/book/03-practice-frontiers/01-architecture/software-architecture.md
+    part: practice-frontiers
+    order: 3002
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/01-architecture/software-architecture.html
+    layout: chapter
+  - id: architecture-styles
+    source:
+      en: en/book/03-practice-frontiers/01-architecture/architecture-styles.md
+    part: practice-frontiers
+    order: 3003
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/01-architecture/architecture-styles.html
+    layout: chapter
+  - id: system-design
+    source:
+      en: en/book/03-practice-frontiers/01-architecture/system-design.md
+    part: practice-frontiers
+    order: 3004
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/01-architecture/system-design.html
+    layout: chapter
+  - id: analyze-and-evaluate-an-architecture
+    source:
+      en: en/book/03-practice-frontiers/01-architecture/analyze-and-evaluate-an-architecture.md
+    part: practice-frontiers
+    order: 3005
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/01-architecture/analyze-and-evaluate-an-architecture.html
+    layout: chapter
+  - id: backend-architecture
+    source:
+      en: en/book/03-practice-frontiers/01-architecture/backend-architecture.md
+    part: practice-frontiers
+    order: 3006
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/01-architecture/backend-architecture.html
+    layout: chapter
+  - id: service-oriented-architecture
+    source:
+      en: en/book/03-practice-frontiers/01-architecture/service-oriented-architecture.md
+    part: practice-frontiers
+    order: 3007
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/01-architecture/service-oriented-architecture.html
+    layout: chapter
+  - id: microservices
+    source:
+      en: en/book/03-practice-frontiers/01-architecture/microservices.md
+    part: practice-frontiers
+    order: 3008
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/01-architecture/microservices.html
+    layout: chapter
+  - id: distributed-system
+    source:
+      en: en/book/03-practice-frontiers/02-distributed-data/distributed-system.md
+    part: practice-frontiers
+    order: 3009
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/02-distributed-data/distributed-system.html
+    layout: chapter
+  - id: data-platforms
+    source:
+      en: en/book/03-practice-frontiers/02-distributed-data/data-platforms.md
+    part: practice-frontiers
+    order: 3010
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/02-distributed-data/data-platforms.html
+    layout: chapter
+  - id: devops-and-deployment
+    source:
+      en: en/book/03-practice-frontiers/03-delivery-reliability/devops-and-deployment.md
+    part: practice-frontiers
+    order: 3011
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/03-delivery-reliability/devops-and-deployment.html
+    layout: chapter
+  - id: traffic-and-reliability
+    source:
+      en: en/book/03-practice-frontiers/03-delivery-reliability/traffic-and-reliability.md
+    part: practice-frontiers
+    order: 3012
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/03-delivery-reliability/traffic-and-reliability.html
+    layout: chapter
+  - id: observability
+    source:
+      en: en/book/03-practice-frontiers/03-delivery-reliability/observability.md
+    part: practice-frontiers
+    order: 3013
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/03-delivery-reliability/observability.html
+    layout: chapter
+  - id: linux-debugging
+    source:
+      en: en/book/03-practice-frontiers/04-performance/linux-debugging.md
+      zh-CN: zh/book/03-practice-frontiers/04-performance/linux-debugging.md
+    part: practice-frontiers
+    order: 3014
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/04-performance/linux-debugging.html
+      zh-CN: /ComputerScience/zh/book/03-practice-frontiers/04-performance/linux-debugging.html
+    layout: chapter
+  - id: performance
+    source:
+      en: en/book/03-practice-frontiers/04-performance/performance.md
+    part: practice-frontiers
+    order: 3015
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/04-performance/performance.html
+    layout: chapter
+  - id: testing-observability
+    source:
+      en: en/book/03-practice-frontiers/05-verification-security/testing-observability.md
+    part: practice-frontiers
+    order: 3016
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/05-verification-security/testing-observability.html
+    layout: chapter
+  - id: security
+    source:
+      en: en/book/03-practice-frontiers/05-verification-security/security.md
+    part: practice-frontiers
+    order: 3017
+    route:
+      en: /ComputerScience/en/book/03-practice-frontiers/05-verification-security/security.html
     layout: chapter

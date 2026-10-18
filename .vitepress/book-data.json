@@ -1,337 +1,1289 @@
 [
   {
-    "id": "stage-1-foundations",
-    "label": "Stage 1: Foundations / 第一阶：基础修炼",
+    "id": "01-quick-start",
+    "label": "Quick Start / 快速入门",
     "number": "01",
     "chapters": [
       {
-        "id": "computational-thinking-1",
-        "label": "Computational Thinking / 计算思维",
+        "id": "00-guide",
+        "label": "Learning Guide / 学习指南",
         "sections": [
-          { "title": "Ch 1 · From Problem to Algorithm", "source": "ch01-algorithms.md", "link": "/book/stage-1-foundations/ch01-algorithms", "languages": ["zh"] },
-          { "title": "Ch 2 · Data, Types & Representation", "source": "ch02-types-and-representation.md", "link": "/book/stage-1-foundations/ch02-types-and-representation", "languages": ["zh"] },
-          { "title": "Ch 3 · Paradigms & Language Design", "source": "ch03-paradigms.md", "link": "/book/stage-1-foundations/ch03-paradigms", "languages": ["zh"] }
+          {
+            "title": "Build Your First Application / 做出第一个应用",
+            "source": "01-quick-start/00-guide/quick-start-guide.md",
+            "link": "/book/01-quick-start/00-guide/quick-start-guide",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
         ]
       },
       {
-        "id": "math-foundations-1",
-        "label": "Math Foundations / 数学基础种子",
+        "id": "01-computing",
+        "label": "Computers and the Internet / 计算机与互联网",
         "sections": [
-          { "title": "Ch 4 · Probability Is Not Frequency", "source": "ch04-probability.md", "link": "/book/stage-1-foundations/ch04-probability", "languages": ["zh"] },
-          { "title": "Ch 5 · Linear Algebra: Geometric Intuition", "source": "ch05-linear-algebra.md", "link": "/book/stage-1-foundations/ch05-linear-algebra", "languages": ["zh"] }
+          {
+            "title": "Your Computer: Hardware, OS, and Files / 你的计算机：硬件、操作系统与文件",
+            "source": "01-quick-start/01-computing/your-computer.md",
+            "link": "/book/01-quick-start/01-computing/your-computer",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          },
+          {
+            "title": "The Internet and the Web / 互联网与万维网",
+            "source": "01-quick-start/01-computing/internet-and-web.md",
+            "link": "/book/01-quick-start/01-computing/internet-and-web",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
         ]
       },
       {
-        "id": "systems-thinking-1",
-        "label": "Systems Thinking / 系统思维",
+        "id": "02-environment",
+        "label": "Developer Toolkit / 开发者工具箱",
         "sections": [
-          { "title": "Ch 6 · How Programs Run", "source": "ch06-how-programs-run.md", "link": "/book/stage-1-foundations/ch06-how-programs-run", "languages": ["zh"] },
-          { "title": "Ch 7 · Operating Systems: Three Abstractions", "source": "ch07-operating-systems.md", "link": "/book/stage-1-foundations/ch07-operating-systems", "languages": ["zh"] },
-          { "title": "Ch 8 · Data Structure Choice Philosophy", "source": "ch08-data-structures.md", "link": "/book/stage-1-foundations/ch08-data-structures", "languages": ["zh"] }
+          {
+            "title": "The Developer Toolkit: Terminal, Git, SSH, and Editors / 开发者工具箱：终端、Git、SSH 与编辑器",
+            "source": "01-quick-start/02-environment/developer-toolkit.md",
+            "link": "/book/01-quick-start/02-environment/developer-toolkit",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
         ]
       },
       {
-        "id": "engineering-practice-1",
-        "label": "Engineering Practice / 工程实践",
+        "id": "03-frontend",
+        "label": "Your First Frontend / 第一个前端",
         "sections": [
-          { "title": "Ch 9 · Code Quality & Testability", "source": "ch09-code-quality.md", "link": "/book/stage-1-foundations/ch09-code-quality", "languages": ["zh"] },
-          { "title": "Ch 10 · Toolchain: Version Control & Automation", "source": "ch10-toolchain.md", "link": "/book/stage-1-foundations/ch10-toolchain", "languages": ["zh"] }
+          {
+            "title": "Twenty Years of Frontend / 前端二十年",
+            "source": "01-quick-start/03-frontend/frontend-intro.md",
+            "link": "/book/01-quick-start/03-frontend/frontend-intro",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Frontend Intro",
+              "前端概述",
+              "frontend-intro"
+            ]
+          },
+          {
+            "title": "Make a Page with HTML and CSS / 用 HTML 与 CSS 制作页面",
+            "source": "01-quick-start/03-frontend/html-css.md",
+            "link": "/book/01-quick-start/03-frontend/html-css",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Web Development",
+              "Web Programming",
+              "web",
+              "网页开发"
+            ]
+          },
+          {
+            "title": "JavaScript, DOM, and Events / JavaScript、DOM 与事件",
+            "source": "01-quick-start/03-frontend/javascript-dom.md",
+            "link": "/book/01-quick-start/03-frontend/javascript-dom",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          },
+          {
+            "title": "From Vanilla JavaScript to React and Vue / 从原生 JavaScript 到 React 与 Vue",
+            "source": "01-quick-start/03-frontend/frameworks.md",
+            "link": "/book/01-quick-start/03-frontend/frameworks",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "04-python",
+        "label": "Python and Project Environments / Python 与项目环境",
+        "sections": [
+          {
+            "title": "Python: A Text Statistics Script / Python 入门：文本统计脚本",
+            "source": "01-quick-start/04-python/python.md",
+            "link": "/book/01-quick-start/04-python/python",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Python"
+            ]
+          },
+          {
+            "title": "Environments, Dependencies, and Configuration / 环境、依赖与配置管理",
+            "source": "01-quick-start/04-python/environments.md",
+            "link": "/book/01-quick-start/04-python/environments",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          },
+          {
+            "title": "PyPI, Third-Party Libraries, and Open Source / PyPI、第三方库与开源入门",
+            "source": "01-quick-start/04-python/packages.md",
+            "link": "/book/01-quick-start/04-python/packages",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "05-api-data",
+        "label": "APIs and Databases / API 与数据库",
+        "sections": [
+          {
+            "title": "HTTP and an API Without a Framework / HTTP 与无框架 API",
+            "source": "01-quick-start/05-api-data/http-api.md",
+            "link": "/book/01-quick-start/05-api-data/http-api",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          },
+          {
+            "title": "FastAPI, Uvicorn, and API Design / FastAPI、Uvicorn 与 API 设计",
+            "source": "01-quick-start/05-api-data/fastapi.md",
+            "link": "/book/01-quick-start/05-api-data/fastapi",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          },
+          {
+            "title": "SQLite and Minimal CRUD / SQLite 与最小 CRUD",
+            "source": "01-quick-start/05-api-data/sqlite.md",
+            "link": "/book/01-quick-start/05-api-data/sqlite",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "06-shipping",
+        "label": "Integration and First Deployment / 联调与首次部署",
+        "sections": [
+          {
+            "title": "Connect fetch, FastAPI, and SQLite / 串起 fetch、FastAPI 与 SQLite",
+            "source": "01-quick-start/06-shipping/full-stack-prototype.md",
+            "link": "/book/01-quick-start/06-shipping/full-stack-prototype",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          },
+          {
+            "title": "First Deployment on Ubuntu Linux / 首次部署到 Ubuntu Linux",
+            "source": "01-quick-start/06-shipping/linux-deployment.md",
+            "link": "/book/01-quick-start/06-shipping/linux-deployment",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
         ]
       }
     ]
   },
   {
-    "id": "stage-2-advanced",
-    "label": "Stage 2: Advanced / 第二阶：进阶修炼",
+    "id": "02-topics",
+    "label": "Topic Deep Dives / 专题深入",
     "number": "02",
     "chapters": [
       {
-        "id": "computational-thinking-2",
-        "label": "Computational Thinking / 计算思维",
-        "sections": [
-          { "title": "Ch 11 · Algorithm Design Paradigms", "source": "ch11-algorithm-design.md", "link": "/book/stage-2-advanced/ch11-algorithm-design", "languages": ["zh"] },
-          { "title": "Ch 12 · The Depth of Type Systems", "source": "ch12-type-systems.md", "link": "/book/stage-2-advanced/ch12-type-systems", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "math-and-ai-2",
-        "label": "Math & AI / 数学与AI",
-        "sections": [
-          { "title": "Ch 13 · The Mathematical Essence of ML", "source": "ch13-ml-foundations.md", "link": "/book/stage-2-advanced/ch13-ml-foundations", "languages": ["zh"] },
-          { "title": "Ch 14 · Gradient, Optimization & Neural Networks", "source": "ch14-neural-networks.md", "link": "/book/stage-2-advanced/ch14-neural-networks", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "systems-thinking-2",
-        "label": "Systems Thinking / 系统思维",
-        "sections": [
-          { "title": "Ch 15 · Networks & Protocols", "source": "ch15-networks.md", "link": "/book/stage-2-advanced/ch15-networks", "languages": ["zh"] },
-          { "title": "Ch 16 · Concurrency & Synchronization", "source": "ch16-concurrency.md", "link": "/book/stage-2-advanced/ch16-concurrency", "languages": ["zh"] },
-          { "title": "Ch 17 · Data Persistence: Why Relational Is Brilliant", "source": "ch17-databases.md", "link": "/book/stage-2-advanced/ch17-databases", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "engineering-practice-2",
-        "label": "Engineering Practice / 工程实践",
-        "sections": [
-          { "title": "Ch 18 · Architecture Patterns", "source": "ch18-architecture-patterns.md", "link": "/book/stage-2-advanced/ch18-architecture-patterns", "languages": ["zh"] },
-          { "title": "Ch 19 · Security: Threat Modeling Thinking", "source": "ch19-security.md", "link": "/book/stage-2-advanced/ch19-security", "languages": ["zh"] },
-          { "title": "Ch 20 · Testing Strategy & Observability", "source": "ch20-testing-observability.md", "link": "/book/stage-2-advanced/ch20-testing-observability", "languages": ["zh"] }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "stage-3-expert",
-    "label": "Stage 3: Expert / 第三阶：专家修炼",
-    "number": "03",
-    "chapters": [
-      {
-        "id": "computational-thinking-3",
-        "label": "Computational Thinking / 计算思维",
-        "sections": [
-          { "title": "Ch 21 · Complexity & Limits of Computation", "source": "ch21-complexity.md", "link": "/book/stage-3-expert/ch21-complexity", "languages": ["zh"] },
-          { "title": "Ch 22 · Information Theory: Entropy & Encoding", "source": "ch22-information-theory.md", "link": "/book/stage-3-expert/ch22-information-theory", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "ai-depth-3",
-        "label": "AI Depth / AI深化",
-        "sections": [
-          { "title": "Ch 23 · Deep Learning Architectures", "source": "ch23-deep-learning.md", "link": "/book/stage-3-expert/ch23-deep-learning", "languages": ["zh"] },
-          { "title": "Ch 24 · How Large Language Models Work", "source": "ch24-llm.md", "link": "/book/stage-3-expert/ch24-llm", "languages": ["zh"] },
-          { "title": "Ch 25 · AI Systems Engineering", "source": "ch25-ai-engineering.md", "link": "/book/stage-3-expert/ch25-ai-engineering", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "systems-thinking-3",
-        "label": "Systems Thinking / 系统思维",
-        "sections": [
-          { "title": "Ch 26 · Distributed Systems: Consistency & Evolution", "source": "ch26-distributed-systems.md", "link": "/book/stage-3-expert/ch26-distributed-systems", "languages": ["zh"] },
-          { "title": "Ch 27 · Performance Analysis & System Tuning", "source": "ch27-performance.md", "link": "/book/stage-3-expert/ch27-performance", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "engineering-practice-3",
-        "label": "Engineering Practice / 工程实践",
-        "sections": [
-          { "title": "Ch 28 · System Design Methodology", "source": "ch28-system-design.md", "link": "/book/stage-3-expert/ch28-system-design", "languages": ["zh"] },
-          { "title": "Ch 29 · Technology Selection & Engineering Judgment", "source": "ch29-tech-selection.md", "link": "/book/stage-3-expert/ch29-tech-selection", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "closing",
-        "label": "Closing / 尾章",
-        "sections": [
-          { "title": "Ch 30 · Learning Methods in Rapid Change", "source": "ch30-learning-methods.md", "link": "/book/stage-3-expert/ch30-learning-methods", "languages": ["zh"] },
-          { "title": "Ch 31 · Next Steps on Three Paths", "source": "ch31-next-steps.md", "link": "/book/stage-3-expert/ch31-next-steps", "languages": ["zh"] }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "web-extensions",
-    "label": "Web Extensions (Optional) / Web扩展（可选）",
-    "number": "W",
-    "chapters": [
-      {
-        "id": "web-ext-pack",
-        "label": "SE Track Extensions / SE路线扩展",
-        "sections": [
-          { "title": "Web Ext I · HTTP, REST & Full-Stack Basics", "source": "web-ext-1.md", "link": "/book/web-extensions/web-ext-1", "languages": ["zh"] },
-          { "title": "Web Ext II · Backend Architecture, DB & Frontend", "source": "web-ext-2.md", "link": "/book/web-extensions/web-ext-2", "languages": ["zh"] },
-          { "title": "Web Ext III · High-Availability, Data & Cloud Native", "source": "web-ext-3.md", "link": "/book/web-extensions/web-ext-3", "languages": ["zh"] }
-        ]
-      }
-    ]
-  },
-  {
-    "id": "reference-notes",
-    "label": "Reference Notes / 参考笔记",
-    "number": "R",
-    "chapters": [
-      {
-        "id": "orientation",
-        "label": "Orientation / 导读",
-        "sections": [
-          { "title": "Programming", "source": "README.md", "link": "/book/01-foundations/01-orientation/programming" },
-          { "title": "Programming Tools Map", "source": "Programming_Tools_Map.md", "link": "/book/01-foundations/01-orientation/programming-tools-map" }
-        ]
-      },
-      {
-        "id": "computing-foundations",
-        "label": "Computing Foundations / 计算基础",
-        "sections": [
-          { "title": "Hardware", "source": "Hardware.md", "link": "/book/01-foundations/02-computing-foundations/hardware", "languages": ["zh"], "legacyLanguage": "zh" },
-          { "title": "Software", "source": "Software.md", "link": "/book/01-foundations/02-computing-foundations/software", "languages": ["en", "zh"], "legacyLanguage": "en" },
-          { "title": "Computer Systems", "source": "cs-system.md", "link": "/book/01-foundations/02-computing-foundations/computer-systems", "languages": ["en", "zh"], "legacyLanguage": "en" }
-        ]
-      },
-      {
-        "id": "programming-foundations",
-        "label": "Programming Foundations / 编程基础",
-        "sections": [
-          { "title": "Programming Basics", "source": "programming-basics.md", "link": "/book/01-foundations/03-programming-foundations/programming-basics" },
-          { "title": "Data Structures & Algorithms", "source": "Data Structure & Algorithms.md", "link": "/book/01-foundations/03-programming-foundations/data-structures-and-algorithms" },
-          { "title": "Object-Oriented Programming", "source": "Object Oriented Programming (C++ Java).md", "link": "/book/01-foundations/03-programming-foundations/object-oriented-programming" }
-        ]
-      },
-      {
-        "id": "languages",
-        "label": "Languages / 编程语言",
-        "sections": [
-          { "title": "Python", "source": "Python.md", "link": "/book/02-programming/01-languages/python" },
-          { "title": "Java", "source": "java.md", "link": "/book/02-programming/01-languages/java" },
-          { "title": "Go", "source": "go.md", "link": "/book/02-programming/01-languages/go" },
-          { "title": "Web Programming", "source": "web.md", "link": "/book/02-programming/01-languages/web-programming" }
-        ]
-      },
-      {
-        "id": "quality-and-correctness",
-        "label": "Quality & Correctness / 质量与正确性",
-        "sections": [
-          { "title": "Debugging and Testing", "source": "Debugging and Testing.md", "link": "/book/02-programming/02-quality-and-correctness/debugging-and-testing" },
-          { "title": "Regular Expressions", "source": "regex.md", "link": "/book/02-programming/02-quality-and-correctness/regular-expressions" }
-        ]
-      },
-      {
-        "id": "operating-systems-and-linux",
-        "label": "OS & Linux / 操作系统与Linux",
-        "sections": [
-          { "title": "Linux Notes", "source": "Linux.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-notes" },
-          { "title": "Operating Systems", "source": "Operating_Systems_ZH.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/operating-systems", "languages": ["zh"] },
-          { "title": "Linux Overview", "source": "linux/ReadMe.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-overview" },
-          { "title": "Command Line", "source": "linux/command-line.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/command-line" },
-          { "title": "Linux Debugging", "source": "linux/debugging.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/linux-debugging", "languages": ["en", "zh"], "legacyLanguage": "en" },
-          { "title": "File System", "source": "linux/file-system.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/file-system" },
-          { "title": "Shell", "source": "linux/shell.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/shell" },
-          { "title": "Emacs", "source": "linux/emacs-vim/emacs.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/emacs" },
-          { "title": "Other Operating Systems", "source": "Other_Operating_Systems.md", "link": "/book/03-systems-and-data/01-operating-systems-and-linux/other-operating-systems" }
-        ]
-      },
-      {
-        "id": "networks-and-web",
-        "label": "Networks & Web / 网络与Web",
-        "sections": [
-          { "title": "Web Development & Networking", "source": "Web Development & Networking.md", "link": "/book/03-systems-and-data/02-networks-and-web/web-development-and-networking" },
-          { "title": "Networks", "source": "Networks_ZH.md", "link": "/book/03-systems-and-data/02-networks-and-web/networks", "languages": ["zh"] }
-        ]
-      },
-      {
-        "id": "databases-and-sql",
-        "label": "Databases & SQL / 数据库与SQL",
-        "sections": [
-          { "title": "Database", "source": "Database.md", "link": "/book/03-systems-and-data/03-databases-and-sql/database" },
-          { "title": "SQL", "source": "sql/README.md", "link": "/book/03-systems-and-data/03-databases-and-sql/sql" },
-          { "title": "SQL Execution", "source": "sql/sql-execution.md", "link": "/book/03-systems-and-data/03-databases-and-sql/sql-execution" },
-          { "title": "DDL", "source": "sql/ddl.md", "link": "/book/03-systems-and-data/03-databases-and-sql/ddl" },
-          { "title": "DML & DCL", "source": "sql/dml-dcl.md", "link": "/book/03-systems-and-data/03-databases-and-sql/dml-dcl" },
-          { "title": "Hive Query Language", "source": "sql/hql.md", "link": "/book/03-systems-and-data/03-databases-and-sql/hql" }
-        ]
-      },
-      {
-        "id": "data-platforms",
-        "label": "Data Platforms / 数据平台",
-        "sections": [
-          { "title": "Big Data Tech", "source": "Big Data Tech.md", "link": "/book/03-systems-and-data/04-data-platforms/big-data-tech" },
-          { "title": "Big Data Technology", "source": "Big Data Technology.md", "link": "/book/03-systems-and-data/04-data-platforms/big-data-technology" }
-        ]
-      },
-      {
-        "id": "design-foundations",
-        "label": "Design Foundations / 设计基础",
-        "sections": [
-          { "title": "Software Design", "source": "design-and-architecture/README.md", "link": "/book/04-design-and-architecture/01-design-foundations/software-design" },
-          { "title": "Programming Paradigms", "source": "design-and-architecture/programming-paradigm.md", "link": "/book/04-design-and-architecture/01-design-foundations/programming-paradigms" },
-          { "title": "Design Overview", "source": "design-and-architecture/design-overview.md", "link": "/book/04-design-and-architecture/01-design-foundations/design-overview" },
-          { "title": "Design Principles", "source": "design-and-architecture/design-principles.md", "link": "/book/04-design-and-architecture/01-design-foundations/design-principles" },
-          { "title": "Code Testing", "source": "design-and-architecture/code-testing.md", "link": "/book/04-design-and-architecture/01-design-foundations/code-testing" }
-        ]
-      },
-      {
-        "id": "design-patterns",
-        "label": "Design Patterns / 设计模式",
-        "sections": [
-          { "title": "Design Principles", "source": "Design_Pattern_Principles.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-principles" },
-          { "title": "Design Patterns — Comprehensive", "source": "Design Patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-patterns-comprehensive" },
-          { "title": "Design Patterns — Overview", "source": "design-and-architecture/design-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/design-patterns-overview" },
-          { "title": "Creational Patterns", "source": "design-and-architecture/design-patterns/creational-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/creational-patterns" },
-          { "title": "Structural Patterns", "source": "design-and-architecture/design-patterns/structural-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/structural-patterns" },
-          { "title": "Behavioral Patterns", "source": "design-and-architecture/design-patterns/behavioral-patterns.md", "link": "/book/04-design-and-architecture/02-design-patterns/behavioral-patterns" }
-        ]
-      },
-      {
-        "id": "software-architecture",
-        "label": "Software Architecture / 软件架构",
-        "sections": [
-          { "title": "Software Architecture", "source": "design-and-architecture/software-architecture.md", "link": "/book/04-design-and-architecture/03-software-architecture/software-architecture" },
-          { "title": "UML", "source": "design-and-architecture/software-architecture/umlunified-modeling-language.md", "link": "/book/04-design-and-architecture/03-software-architecture/uml-unified-modeling-language" },
-          { "title": "Architecture Styles", "source": "design-and-architecture/software-architecture/architecture-styles.md", "link": "/book/04-design-and-architecture/03-software-architecture/architecture-styles" },
-          { "title": "Analyze and Evaluate an Architecture", "source": "design-and-architecture/software-architecture/analyze-and-evaluate-an-architecture.md", "link": "/book/04-design-and-architecture/03-software-architecture/analyze-and-evaluate-an-architecture" }
-        ]
-      },
-      {
-        "id": "distributed-systems",
-        "label": "Distributed Systems / 分布式系统",
-        "sections": [
-          { "title": "System Design", "source": "System Design.md", "link": "/book/04-design-and-architecture/04-distributed-systems/system-design" },
-          { "title": "Service-Oriented Architecture", "source": "design-and-architecture/service-oriented-architecture.md", "link": "/book/04-design-and-architecture/04-distributed-systems/service-oriented-architecture" },
-          { "title": "Distributed System", "source": "design-and-architecture/service-oriented-architecture/distributed-system.md", "link": "/book/04-design-and-architecture/04-distributed-systems/distributed-system" },
-          { "title": "Microservices", "source": "design-and-architecture/service-oriented-architecture/microservices.md", "link": "/book/04-design-and-architecture/04-distributed-systems/microservices" },
-          { "title": "Database and Cache", "source": "design-and-architecture/service-oriented-architecture/database-and-cache.md", "link": "/book/04-design-and-architecture/04-distributed-systems/database-and-cache" },
-          { "title": "REST Architecture for SOA", "source": "REST_Architecture_For_SOA.md", "link": "/book/04-design-and-architecture/04-distributed-systems/rest-architecture-for-soa" },
-          { "title": "Web Services", "source": "Web_Services.md", "link": "/book/04-design-and-architecture/04-distributed-systems/web-services" },
-          { "title": "Web Technologies", "source": "Web_Technologies.md", "link": "/book/04-design-and-architecture/04-distributed-systems/web-technologies" }
-        ]
-      },
-      {
-        "id": "environment-and-tools",
-        "label": "Environment & Tools / 环境与工具",
+        "id": "00-guide",
+        "label": "Learning Guide / 学习指南",
         "sections": [
           {
-            "title": "Git",
-            "source": "Git.md",
-            "link": "/book/01-foundations/01-environment-and-tools/git/git",
-            "languages": ["en", "zh"],
-            "items": [
-              { "title": "Git Visualization Tools", "source": "Git_Syllabus_2.md", "link": "/book/01-foundations/01-environment-and-tools/git/git-syllabus-2" },
-              { "title": "Git Workflow Management", "source": "Git_Syllabus_3.md", "link": "/book/01-foundations/01-environment-and-tools/git/git-syllabus-3" },
-              { "title": "Git References", "source": "Git_References.md", "link": "/book/01-foundations/01-environment-and-tools/git/references" }
+            "title": "Understand Each Knowledge Domain / 理解各个知识领域",
+            "source": "02-topics/00-guide/topic-guide.md",
+            "link": "/book/02-topics/00-guide/topic-guide",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "01-programming",
+        "label": "Programming and Languages / 编程与语言",
+        "sections": [
+          {
+            "title": "Programming",
+            "source": "02-topics/01-programming/programming.md",
+            "link": "/book/02-topics/01-programming/programming",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Programming"
+            ]
+          },
+          {
+            "title": "Programming Basics",
+            "source": "02-topics/01-programming/programming-basics.md",
+            "link": "/book/02-topics/01-programming/programming-basics",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 2 · Data, Types & Representation",
+              "Programming Basics",
+              "ch02-types-and-representation",
+              "programming-basics"
+            ]
+          },
+          {
+            "title": "Programming Paradigms",
+            "source": "02-topics/01-programming/programming-paradigms.md",
+            "link": "/book/02-topics/01-programming/programming-paradigms",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 3 · Paradigms & Language Design",
+              "Programming Paradigms",
+              "ch03-paradigms",
+              "programming-paradigm"
+            ]
+          },
+          {
+            "title": "Type Systems",
+            "source": "02-topics/01-programming/type-systems.md",
+            "link": "/book/02-topics/01-programming/type-systems",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 12 · The Depth of Type Systems",
+              "ch12-type-systems"
+            ]
+          },
+          {
+            "title": "Object Oriented Programming",
+            "source": "02-topics/01-programming/object-oriented-programming.md",
+            "link": "/book/02-topics/01-programming/object-oriented-programming",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Object Oriented Programming (C++ Java)",
+              "Object-Oriented Programming"
+            ]
+          },
+          {
+            "title": "Regular Expressions",
+            "source": "02-topics/01-programming/regular-expressions.md",
+            "link": "/book/02-topics/01-programming/regular-expressions",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Regular Expressions",
+              "regex"
+            ]
+          },
+          {
+            "title": "Java",
+            "source": "02-topics/01-programming/java.md",
+            "link": "/book/02-topics/01-programming/java",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Java",
+              "java"
+            ]
+          },
+          {
+            "title": "Go",
+            "source": "02-topics/01-programming/go.md",
+            "link": "/book/02-topics/01-programming/go",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Go",
+              "go"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "02-algorithms",
+        "label": "Data Structures and Algorithms / 数据结构与算法",
+        "sections": [
+          {
+            "title": "Data Structures And Algorithms",
+            "source": "02-topics/02-algorithms/data-structures-and-algorithms.md",
+            "link": "/book/02-topics/02-algorithms/data-structures-and-algorithms",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 8 · Data Structure Choice Philosophy",
+              "Data Structure & Algorithms",
+              "Data Structures & Algorithms",
+              "ch08-data-structures"
+            ]
+          },
+          {
+            "title": "Algorithms",
+            "source": "02-topics/02-algorithms/algorithms.md",
+            "link": "/book/02-topics/02-algorithms/algorithms",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 1 · From Problem to Algorithm",
+              "ch01-algorithms"
+            ]
+          },
+          {
+            "title": "Algorithm Design",
+            "source": "02-topics/02-algorithms/algorithm-design.md",
+            "link": "/book/02-topics/02-algorithms/algorithm-design",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 11 · Algorithm Design Paradigms",
+              "ch11-algorithm-design"
+            ]
+          },
+          {
+            "title": "Complexity",
+            "source": "02-topics/02-algorithms/complexity.md",
+            "link": "/book/02-topics/02-algorithms/complexity",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 21 · Complexity & Limits of Computation",
+              "ch21-complexity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "03-mathematics",
+        "label": "Mathematical Foundations / 数学基础",
+        "sections": [
+          {
+            "title": "Probability",
+            "source": "02-topics/03-mathematics/probability.md",
+            "link": "/book/02-topics/03-mathematics/probability",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 4 · Probability Is Not Frequency",
+              "ch04-probability"
+            ]
+          },
+          {
+            "title": "Linear Algebra",
+            "source": "02-topics/03-mathematics/linear-algebra.md",
+            "link": "/book/02-topics/03-mathematics/linear-algebra",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 5 · Linear Algebra: Geometric Intuition",
+              "ch05-linear-algebra"
+            ]
+          },
+          {
+            "title": "Information Theory",
+            "source": "02-topics/03-mathematics/information-theory.md",
+            "link": "/book/02-topics/03-mathematics/information-theory",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 22 · Information Theory: Entropy & Encoding",
+              "ch22-information-theory"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "04-computer-systems",
+        "label": "Computer Systems and Operating Systems / 计算机系统与操作系统",
+        "sections": [
+          {
+            "title": "Computer Systems / 计算机系统",
+            "source": "02-topics/04-computer-systems/computer-systems.md",
+            "link": "/book/02-topics/04-computer-systems/computer-systems",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Ch 6 · How Programs Run",
+              "Computer Systems",
+              "ch06-how-programs-run",
+              "cs-system",
+              "计算机系统"
+            ]
+          },
+          {
+            "title": "Hardware / 硬件",
+            "source": "02-topics/04-computer-systems/hardware.md",
+            "link": "/book/02-topics/04-computer-systems/hardware",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "Hardware",
+              "硬件"
+            ]
+          },
+          {
+            "title": "Software / 软件",
+            "source": "02-topics/04-computer-systems/software.md",
+            "link": "/book/02-topics/04-computer-systems/software",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Software",
+              "软件"
+            ]
+          },
+          {
+            "title": "Operating Systems / 操作系统",
+            "source": "02-topics/04-computer-systems/operating-systems.md",
+            "link": "/book/02-topics/04-computer-systems/operating-systems",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Ch 7 · Operating Systems: Three Abstractions",
+              "Linux Overview",
+              "Operating Systems",
+              "Operating_Systems_ZH",
+              "Other Operating Systems",
+              "Other_Operating_Systems",
+              "ch07-operating-systems",
+              "操作系统"
+            ]
+          },
+          {
+            "title": "File System",
+            "source": "02-topics/04-computer-systems/file-system.md",
+            "link": "/book/02-topics/04-computer-systems/file-system",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "File System",
+              "file-system"
+            ]
+          },
+          {
+            "title": "Concurrency",
+            "source": "02-topics/04-computer-systems/concurrency.md",
+            "link": "/book/02-topics/04-computer-systems/concurrency",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 16 · Concurrency & Synchronization",
+              "ch16-concurrency"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "05-networks",
+        "label": "Networks and Protocols / 网络与协议",
+        "sections": [
+          {
+            "title": "Networks / 互联网与网络",
+            "source": "02-topics/05-networks/networks.md",
+            "link": "/book/02-topics/05-networks/networks",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Ch 15 · Networks & Protocols",
+              "Networks",
+              "Networks_ZH",
+              "Web Development & Networking",
+              "ch15-networks",
+              "互联网与网络"
+            ]
+          },
+          {
+            "title": "HTTP and TCP/IP",
+            "source": "02-topics/05-networks/http.md",
+            "link": "/book/02-topics/05-networks/http",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Web Ext I · HTTP, REST & Full-Stack Basics",
+              "web-ext-1"
+            ]
+          },
+          {
+            "title": "Internet Data and Privacy / 互联网数据与隐私",
+            "source": "02-topics/05-networks/data-and-privacy.md",
+            "link": "/book/02-topics/05-networks/data-and-privacy",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "Internet Data and Privacy",
+              "互联网数据与隐私"
+            ]
+          },
+          {
+            "title": "From HTTP to HTTPS to Real-Time Streaming / 从 HTTP 到 HTTPS 到实时流式通信",
+            "source": "02-topics/05-networks/web-communication.md",
+            "link": "/book/02-topics/05-networks/web-communication",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "HTTP HTTPS SSE WebSocket",
+              "web-communication",
+              "互联网传输协议"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "06-frontend",
+        "label": "Browser and Frontend / 浏览器与前端",
+        "sections": [
+          {
+            "title": "Browser and Components",
+            "source": "02-topics/06-frontend/browser-and-components.md",
+            "link": "/book/02-topics/06-frontend/browser-and-components",
+            "languages": [
+              "en"
+            ]
+          },
+          {
+            "title": "Frontend Tooling and Framework Roadmap",
+            "source": "02-topics/06-frontend/frontend-roadmap.md",
+            "link": "/book/02-topics/06-frontend/frontend-roadmap",
+            "languages": [
+              "en"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "07-backend",
+        "label": "Services and APIs / 服务与 API",
+        "sections": [
+          {
+            "title": "Request Lifecycle and Service Layers",
+            "source": "02-topics/07-backend/request-lifecycle.md",
+            "link": "/book/02-topics/07-backend/request-lifecycle",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Web Technologies",
+              "Web_Technologies"
+            ]
+          },
+          {
+            "title": "Backend Frameworks",
+            "source": "02-topics/07-backend/backend-frameworks.md",
+            "link": "/book/02-topics/07-backend/backend-frameworks",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Backend Frameworks"
+            ]
+          },
+          {
+            "title": "Flask",
+            "source": "02-topics/07-backend/flask.md",
+            "link": "/book/02-topics/07-backend/flask",
+            "languages": [
+              "en"
+            ]
+          },
+          {
+            "title": "Rest Architecture For Soa",
+            "source": "02-topics/07-backend/rest-architecture-for-soa.md",
+            "link": "/book/02-topics/07-backend/rest-architecture-for-soa",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "REST Architecture for SOA",
+              "REST_Architecture_For_SOA"
+            ]
+          },
+          {
+            "title": "Web Services",
+            "source": "02-topics/07-backend/web-services.md",
+            "link": "/book/02-topics/07-backend/web-services",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Web Services",
+              "Web_Services"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "08-data",
+        "label": "Databases and Caching / 数据库与缓存",
+        "sections": [
+          {
+            "title": "Database",
+            "source": "02-topics/08-data/database.md",
+            "link": "/book/02-topics/08-data/database",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 17 · Data Persistence: Why Relational Is Brilliant",
+              "Database",
+              "ch17-databases"
+            ]
+          },
+          {
+            "title": "Sql",
+            "source": "02-topics/08-data/sql.md",
+            "link": "/book/02-topics/08-data/sql",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "SQL"
+            ]
+          },
+          {
+            "title": "Ddl",
+            "source": "02-topics/08-data/ddl.md",
+            "link": "/book/02-topics/08-data/ddl",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "DDL",
+              "ddl"
+            ]
+          },
+          {
+            "title": "Data Manipulation and Control",
+            "source": "02-topics/08-data/dml-dcl.md",
+            "link": "/book/02-topics/08-data/dml-dcl",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "DML & DCL",
+              "Hive Query Language",
+              "dml-dcl",
+              "hql"
+            ]
+          },
+          {
+            "title": "Sql Execution",
+            "source": "02-topics/08-data/sql-execution.md",
+            "link": "/book/02-topics/08-data/sql-execution",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "SQL Execution",
+              "sql-execution"
+            ]
+          },
+          {
+            "title": "Database And Cache",
+            "source": "02-topics/08-data/database-and-cache.md",
+            "link": "/book/02-topics/08-data/database-and-cache",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Database and Cache",
+              "database-and-cache"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "09-software-design",
+        "label": "Software Design and Code Quality / 软件设计与代码质量",
+        "sections": [
+          {
+            "title": "Software Design",
+            "source": "02-topics/09-software-design/software-design.md",
+            "link": "/book/02-topics/09-software-design/software-design",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Software Design"
+            ]
+          },
+          {
+            "title": "Design Overview",
+            "source": "02-topics/09-software-design/design-overview.md",
+            "link": "/book/02-topics/09-software-design/design-overview",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Design Overview",
+              "design-overview"
+            ]
+          },
+          {
+            "title": "Design Principles",
+            "source": "02-topics/09-software-design/design-principles.md",
+            "link": "/book/02-topics/09-software-design/design-principles",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Design Patterns",
+              "Design Patterns — Comprehensive",
+              "Design Principles",
+              "Design_Pattern_Principles",
+              "design-principles"
+            ]
+          },
+          {
+            "title": "Uml Unified Modeling Language",
+            "source": "02-topics/09-software-design/uml-unified-modeling-language.md",
+            "link": "/book/02-topics/09-software-design/uml-unified-modeling-language",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "UML",
+              "umlunified-modeling-language"
+            ]
+          },
+          {
+            "title": "Code Quality",
+            "source": "02-topics/09-software-design/code-quality.md",
+            "link": "/book/02-topics/09-software-design/code-quality",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 9 · Code Quality & Testability",
+              "Debugging and Testing",
+              "ch09-code-quality"
+            ]
+          },
+          {
+            "title": "Design Patterns Overview",
+            "source": "02-topics/09-software-design/design-patterns-overview.md",
+            "link": "/book/02-topics/09-software-design/design-patterns-overview",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Design Patterns — Overview",
+              "design-patterns"
+            ]
+          },
+          {
+            "title": "Creational Patterns",
+            "source": "02-topics/09-software-design/creational-patterns.md",
+            "link": "/book/02-topics/09-software-design/creational-patterns",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Creational Patterns",
+              "creational-patterns"
+            ]
+          },
+          {
+            "title": "Structural Patterns",
+            "source": "02-topics/09-software-design/structural-patterns.md",
+            "link": "/book/02-topics/09-software-design/structural-patterns",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Structural Patterns",
+              "structural-patterns"
+            ]
+          },
+          {
+            "title": "Behavioral Patterns",
+            "source": "02-topics/09-software-design/behavioral-patterns.md",
+            "link": "/book/02-topics/09-software-design/behavioral-patterns",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Behavioral Patterns",
+              "behavioral-patterns"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "10-developer-tools",
+        "label": "Development Tools and Automation / 开发工具与自动化",
+        "sections": [
+          {
+            "title": "Programming Tools Map / 编程工具地图",
+            "source": "02-topics/10-developer-tools/programming-tools-map.md",
+            "link": "/book/02-topics/10-developer-tools/programming-tools-map",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Programming Tools",
+              "Programming Tools Map",
+              "Programming_Tools_Map",
+              "Programming_Tools_ZH",
+              "编程工具地图"
+            ]
+          },
+          {
+            "title": "Working Environment Setup",
+            "source": "02-topics/10-developer-tools/working-environment-setup.md",
+            "link": "/book/02-topics/10-developer-tools/working-environment-setup",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Working Environment Setup",
+              "Working_Environment_Setup"
+            ]
+          },
+          {
+            "title": "Command Line",
+            "source": "02-topics/10-developer-tools/command-line.md",
+            "link": "/book/02-topics/10-developer-tools/command-line",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Command Line",
+              "command-line"
+            ]
+          },
+          {
+            "title": "Shell",
+            "source": "02-topics/10-developer-tools/shell.md",
+            "link": "/book/02-topics/10-developer-tools/shell",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Linux",
+              "Linux Notes",
+              "Shell",
+              "shell"
+            ]
+          },
+          {
+            "title": "Shell Scripting",
+            "source": "02-topics/10-developer-tools/shell-scripting.md",
+            "link": "/book/02-topics/10-developer-tools/shell-scripting",
+            "languages": [
+              "en"
+            ]
+          },
+          {
+            "title": "Git and GitHub / Git 与 GitHub",
+            "source": "02-topics/10-developer-tools/git-reference.md",
+            "link": "/book/02-topics/10-developer-tools/git-reference",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Ch 10 · Toolchain: Version Control & Automation",
+              "Git",
+              "Git and GitHub",
+              "Git 与 GitHub",
+              "ch10-toolchain"
+            ]
+          },
+          {
+            "title": "Advanced Git / Git 精进",
+            "source": "02-topics/10-developer-tools/git-deep-dive.md",
+            "link": "/book/02-topics/10-developer-tools/git-deep-dive",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Advanced Git",
+              "Git References",
+              "Git Visualization Tools",
+              "Git Workflow Management",
+              "Git 精进",
+              "Git_References",
+              "Git_Syllabus_2",
+              "Git_Syllabus_3"
             ]
           },
           {
             "title": "Vim",
-            "source": "Vim.md",
-            "link": "/book/01-foundations/01-environment-and-tools/vim",
-            "items": [
-              { "title": "Getting Started", "source": "vim-intro.md", "link": "/book/01-foundations/01-environment-and-tools/vim/getting-started" },
-              { "title": "Editing and Workflows", "source": "vim-keys.md", "link": "/book/01-foundations/01-environment-and-tools/vim/editing-and-workflows" },
-              { "title": "Configuration", "source": "vim-setup.md", "link": "/book/01-foundations/01-environment-and-tools/vim/configuration" },
-              { "title": "Plugins and Ecosystem", "source": "vim-plugin.md", "link": "/book/01-foundations/01-environment-and-tools/vim/plugins-and-ecosystem" },
-              { "title": "Vimscript", "source": "vim-advanced.md", "link": "/book/01-foundations/01-environment-and-tools/vim/vimscript" }
+            "source": "02-topics/10-developer-tools/vim.md",
+            "link": "/book/02-topics/10-developer-tools/vim",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Getting Started",
+              "Vim",
+              "vim-intro"
             ]
           },
-          { "title": "Cursor", "source": "Cursor.md", "link": "/book/01-foundations/01-environment-and-tools/cursor" },
-          { "title": "Working Environment Setup", "source": "Working_Environment_Setup.md", "link": "/book/01-foundations/01-environment-and-tools/working-environment-setup" },
-          { "title": "Programming Tools", "source": "Programming_Tools_ZH.md", "link": "/book/05-engineering-practice/01-environment-and-tools/programming-tools", "languages": ["zh"] }
+          {
+            "title": "Vim Workflows",
+            "source": "02-topics/10-developer-tools/vim-workflows.md",
+            "link": "/book/02-topics/10-developer-tools/vim-workflows",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Editing and Workflows",
+              "vim-keys"
+            ]
+          },
+          {
+            "title": "Vim Configuration",
+            "source": "02-topics/10-developer-tools/vim-configuration.md",
+            "link": "/book/02-topics/10-developer-tools/vim-configuration",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Configuration",
+              "vim-setup"
+            ]
+          },
+          {
+            "title": "Vim Plugins",
+            "source": "02-topics/10-developer-tools/vim-plugins.md",
+            "link": "/book/02-topics/10-developer-tools/vim-plugins",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Plugins and Ecosystem",
+              "vim-plugin"
+            ]
+          },
+          {
+            "title": "Vimscript",
+            "source": "02-topics/10-developer-tools/vimscript.md",
+            "link": "/book/02-topics/10-developer-tools/vimscript",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Vimscript",
+              "vim-advanced"
+            ]
+          },
+          {
+            "title": "Emacs",
+            "source": "02-topics/10-developer-tools/emacs.md",
+            "link": "/book/02-topics/10-developer-tools/emacs",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Emacs",
+              "emacs"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "03-practice-frontiers",
+    "label": "Practice and Frontiers / 实践与前沿",
+    "number": "03",
+    "chapters": [
+      {
+        "id": "00-guide",
+        "label": "Learning Guide / 学习指南",
+        "sections": [
+          {
+            "title": "From a Working App to a Reliable System / 从可运行应用到可靠系统",
+            "source": "03-practice-frontiers/00-guide/practice-frontiers-guide.md",
+            "link": "/book/03-practice-frontiers/00-guide/practice-frontiers-guide",
+            "languages": [
+              "en",
+              "zh"
+            ]
+          }
         ]
       },
       {
-        "id": "frameworks",
-        "label": "Frameworks / 框架",
+        "id": "01-architecture",
+        "label": "Architecture and System Design / 架构与系统设计",
         "sections": [
-          { "title": "Backend Frameworks", "source": "Backend Frameworks.md", "link": "/book/05-engineering-practice/02-frameworks/backend-frameworks" },
-          { "title": "Front-end Tools", "source": "Front-end Tools.md", "link": "/book/05-engineering-practice/02-frameworks/front-end-tools" },
-          { "title": "LangChain and LangGraph", "source": "LangChain LangGraph.md", "link": "/book/05-engineering-practice/02-frameworks/langchain-langgraph" }
+          {
+            "title": "Software Architecture",
+            "source": "03-practice-frontiers/01-architecture/software-architecture.md",
+            "link": "/book/03-practice-frontiers/01-architecture/software-architecture",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 18 · Architecture Patterns",
+              "Software Architecture",
+              "ch18-architecture-patterns",
+              "software-architecture"
+            ]
+          },
+          {
+            "title": "Architecture Styles",
+            "source": "03-practice-frontiers/01-architecture/architecture-styles.md",
+            "link": "/book/03-practice-frontiers/01-architecture/architecture-styles",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Architecture Styles",
+              "architecture-styles"
+            ]
+          },
+          {
+            "title": "System Design",
+            "source": "03-practice-frontiers/01-architecture/system-design.md",
+            "link": "/book/03-practice-frontiers/01-architecture/system-design",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 28 · System Design Methodology",
+              "System Design",
+              "ch28-system-design"
+            ]
+          },
+          {
+            "title": "Analyze And Evaluate An Architecture",
+            "source": "03-practice-frontiers/01-architecture/analyze-and-evaluate-an-architecture.md",
+            "link": "/book/03-practice-frontiers/01-architecture/analyze-and-evaluate-an-architecture",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Analyze and Evaluate an Architecture",
+              "analyze-and-evaluate-an-architecture"
+            ]
+          },
+          {
+            "title": "Backend Architecture",
+            "source": "03-practice-frontiers/01-architecture/backend-architecture.md",
+            "link": "/book/03-practice-frontiers/01-architecture/backend-architecture",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Web Ext II · Backend Architecture, DB & Frontend",
+              "web-ext-2"
+            ]
+          },
+          {
+            "title": "Service Oriented Architecture",
+            "source": "03-practice-frontiers/01-architecture/service-oriented-architecture.md",
+            "link": "/book/03-practice-frontiers/01-architecture/service-oriented-architecture",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Service-Oriented Architecture",
+              "service-oriented-architecture"
+            ]
+          },
+          {
+            "title": "Microservices",
+            "source": "03-practice-frontiers/01-architecture/microservices.md",
+            "link": "/book/03-practice-frontiers/01-architecture/microservices",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Microservices",
+              "microservices"
+            ]
+          }
         ]
       },
       {
-        "id": "operations",
-        "label": "Operations / 运维",
+        "id": "02-distributed-data",
+        "label": "Distributed and Data-intensive Systems / 分布式与数据密集系统",
         "sections": [
-          { "title": "DevOps & Deployment", "source": "DevOps & Deployment.md", "link": "/book/05-engineering-practice/03-operations/devops-and-deployment" },
-          { "title": "MLOps", "source": "ML Ops.md", "link": "/book/05-engineering-practice/03-operations/mlops" },
-          { "title": "Security", "source": "Security.md", "link": "/book/05-engineering-practice/04-security/security" }
+          {
+            "title": "Distributed System",
+            "source": "03-practice-frontiers/02-distributed-data/distributed-system.md",
+            "link": "/book/03-practice-frontiers/02-distributed-data/distributed-system",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 26 · Distributed Systems: Consistency & Evolution",
+              "Distributed System",
+              "ch26-distributed-systems",
+              "distributed-system"
+            ]
+          },
+          {
+            "title": "Data Platforms",
+            "source": "03-practice-frontiers/02-distributed-data/data-platforms.md",
+            "link": "/book/03-practice-frontiers/02-distributed-data/data-platforms",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Big Data Tech",
+              "Big Data Technology"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "03-delivery-reliability",
+        "label": "Delivery and Production Reliability / 交付与生产可靠性",
+        "sections": [
+          {
+            "title": "DevOps and Deployment",
+            "source": "03-practice-frontiers/03-delivery-reliability/devops-and-deployment.md",
+            "link": "/book/03-practice-frontiers/03-delivery-reliability/devops-and-deployment",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "DevOps & Deployment"
+            ]
+          },
+          {
+            "title": "Traffic and Reliability / 流量与可靠性",
+            "source": "03-practice-frontiers/03-delivery-reliability/traffic-and-reliability.md",
+            "link": "/book/03-practice-frontiers/03-delivery-reliability/traffic-and-reliability",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Traffic and Reliability",
+              "Web Ext III · High-Availability, Data & Cloud Native",
+              "web-ext-3",
+              "流量与可靠性"
+            ]
+          },
+          {
+            "title": "Observability",
+            "source": "03-practice-frontiers/03-delivery-reliability/observability.md",
+            "link": "/book/03-practice-frontiers/03-delivery-reliability/observability",
+            "languages": [
+              "en"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "04-performance",
+        "label": "Diagnosis and Performance Engineering / 故障诊断与性能工程",
+        "sections": [
+          {
+            "title": "Linux Debugging / Linux 调试",
+            "source": "03-practice-frontiers/04-performance/linux-debugging.md",
+            "link": "/book/03-practice-frontiers/04-performance/linux-debugging",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "Linux Debugging",
+              "Linux 调试",
+              "debugging"
+            ]
+          },
+          {
+            "title": "Performance",
+            "source": "03-practice-frontiers/04-performance/performance.md",
+            "link": "/book/03-practice-frontiers/04-performance/performance",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 27 · Performance Analysis & System Tuning",
+              "ch27-performance"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "05-verification-security",
+        "label": "Verification and Security / 系统验证与安全",
+        "sections": [
+          {
+            "title": "Testing Strategy and Model Checking",
+            "source": "03-practice-frontiers/05-verification-security/testing-observability.md",
+            "link": "/book/03-practice-frontiers/05-verification-security/testing-observability",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 20 · Testing Strategy & Observability",
+              "Code Testing",
+              "ch20-testing-observability",
+              "code-testing"
+            ]
+          },
+          {
+            "title": "Security",
+            "source": "03-practice-frontiers/05-verification-security/security.md",
+            "link": "/book/03-practice-frontiers/05-verification-security/security",
+            "languages": [
+              "en"
+            ],
+            "aliases": [
+              "Ch 19 · Security: Threat Modeling Thinking",
+              "Security",
+              "ch19-security"
+            ]
+          }
         ]
       }
     ]
