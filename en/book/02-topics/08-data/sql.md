@@ -1,6 +1,15 @@
+---
+id: sql
+locale: en
+title: "Sql"
+status: published
+created: 2026-10-17
+updated: 2026-10-17
+---
+
 # SQL
 
-Last updated: 2026-07-21
+Last updated: 2026-10-17
 
 - [SQL](#sql)
   - [SQL Language Introduction](#sql-language-introduction)
@@ -47,7 +56,7 @@ Last updated: 2026-07-21
     - XML Database (XMLDB)
     - Key-Value Store (KVS), for example, MongoDB
 - non-procedural lanaguage
-  - [SQL Execution](./sql-execution.md)
+  - [SQL Execution](/en/book/02-topics/08-data/sql-execution)
 - Key Concepts
   - one-to-many, many-to-many, one-to-one: "has" relationship
   - Primary key
@@ -55,9 +64,9 @@ Last updated: 2026-07-21
 
 4 Core functions
 
-- DDL: [Data Definition language](./ddl.md) (CREATE, ALTER, DROP, TRUNCATE, RENAME)
-- DML: [Data Manipulation language](./dml-dcl.md) (INSERT, UPDATE, DELETE)
-- DCL: [Data Control language](./dml-dcl.md) (COMMIT, ROLLBACK, GRANT, REVOKE)
+- DDL: [Data Definition language](/en/book/02-topics/08-data/ddl) (CREATE, ALTER, DROP, TRUNCATE, RENAME)
+- DML: [Data Manipulation language](/en/book/02-topics/08-data/dml-dcl) (INSERT, UPDATE, DELETE)
+- DCL: [Data Control language](/en/book/02-topics/08-data/dml-dcl) (COMMIT, ROLLBACK, GRANT, REVOKE)
 - Data Query Language (SELECT)
 
 ### SQL (SQLite) data types
@@ -335,7 +344,6 @@ order by object_id asc
 | int         | size(map) | Returns the size of the map |
 | string      | get(map, key) | Returns the value associated with the specified key |
 | map         | explode(map) | Explodes a map into multiple rows with key-value pairs |
-
 
 Introduction to `LATERAL VIEW EXPLODE` in Hive SQL
 

@@ -1,0 +1,729 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "phase": "A",
+  "status": "verified",
+  "path_base": "repository root",
+  "payload_format": "Each start_marker is followed by LF, exactly size payload bytes, LF, then end_marker. Added titles, dates, and labels are outside payloads.",
+  "summary": {
+    "original_files": 9,
+    "source_blocks": 31,
+    "original_lines": 2454,
+    "original_bytes": 334655,
+    "chapter_files": 14,
+    "prerequisite_files": 3,
+    "review_files": 1
+  },
+  "sources": [
+    {
+      "source": "draft/big-data-system-intro.md",
+      "action": "split-and-relocate",
+      "size": 7574,
+      "sha256": "77a0d21ecb9b12fc38b7e6dd5a81f7e2feb41a5b919a9599bf38aa487f20a548",
+      "line_count": 48,
+      "blocks": [
+        {
+          "id": "big-data-system-intro-1-48",
+          "start_line": 1,
+          "end_line": 48,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/data-platforms.md",
+          "destination_heading": "架构目标、权衡与百度 Log 平台案例",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 7574,
+          "sha256": "77a0d21ecb9b12fc38b7e6dd5a81f7e2feb41a5b919a9599bf38aa487f20a548",
+          "start_marker": "<!-- source-block:big-data-system-intro-1-48:start -->",
+          "end_marker": "<!-- source-block:big-data-system-intro-1-48:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/big-data-system-design.md",
+      "action": "split-and-relocate",
+      "size": 24690,
+      "sha256": "8fa763947d63f74839af2f3a99f51e6d52449672917cf7864560f824a02019e2",
+      "line_count": 180,
+      "blocks": [
+        {
+          "id": "big-data-system-design-1-85",
+          "start_line": 1,
+          "end_line": 85,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/data-ingestion.md",
+          "destination_heading": "数据接入与传输（原第 04 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 10999,
+          "sha256": "101b9cd7a743cc188d7b89c759eb9bd6f9c2a1d7c0cda2fcec1bbaad2f96f1a4",
+          "start_marker": "<!-- source-block:big-data-system-design-1-85:start -->",
+          "end_marker": "<!-- source-block:big-data-system-design-1-85:end -->"
+        },
+        {
+          "id": "big-data-system-design-86-180",
+          "start_line": 86,
+          "end_line": 180,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/batch-and-stream-processing.md",
+          "destination_heading": "计算层与引擎选择（原第 06 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 13691,
+          "sha256": "eb923d1f62d21b574b89ef7680f31940571a0e9bcc511df7c3a82f222b0aa80b",
+          "start_marker": "<!-- source-block:big-data-system-design-86-180:start -->",
+          "end_marker": "<!-- source-block:big-data-system-design-86-180:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/data-collection.md",
+      "action": "split-and-relocate",
+      "size": 40754,
+      "sha256": "c4a7bc905920f80713ddb5d468f81a11840e0d9eec1f7c748278ff5221e02ff6",
+      "line_count": 268,
+      "blocks": [
+        {
+          "id": "data-collection-1-53",
+          "start_line": 1,
+          "end_line": 53,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/data-collection.md",
+          "destination_heading": "事件埋点与传输链路概览",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 4378,
+          "sha256": "1c2791c26b986f1a2885684a0635e93f0f5dbc8294080e6b814be9d66e4822f7",
+          "start_marker": "<!-- source-block:data-collection-1-53:start -->",
+          "end_marker": "<!-- source-block:data-collection-1-53:end -->"
+        },
+        {
+          "id": "data-collection-54-106",
+          "start_line": 54,
+          "end_line": 106,
+          "source_heading": "### 详细总结",
+          "destination": "draft/data-systems/data-collection.md",
+          "destination_heading": "采集需求、数据范围与类型",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 7882,
+          "sha256": "065a8c0bf65889d2a08d97409ee7fc3ef67b804d35e5517032bc372e20a5f7bc",
+          "start_marker": "<!-- source-block:data-collection-54-106:start -->",
+          "end_marker": "<!-- source-block:data-collection-54-106:end -->"
+        },
+        {
+          "id": "data-collection-107-153",
+          "start_line": 107,
+          "end_line": 153,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/metadata-and-lineage.md",
+          "destination_heading": "元数据管理（第 11 讲的另一份摘要：data-collection.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 8577,
+          "sha256": "5c1ed4e3e2a64df4ff516979ad1ab12aff9542958b7ae48fba4cfd73d1277c23",
+          "start_marker": "<!-- source-block:data-collection-107-153:start -->",
+          "end_marker": "<!-- source-block:data-collection-107-153:end -->"
+        },
+        {
+          "id": "data-collection-154-183",
+          "start_line": 154,
+          "end_line": 183,
+          "source_heading": "**7. 数据分层：构建有序的数据体系**",
+          "destination": "draft/data-systems/analytical-data-modeling.md",
+          "destination_heading": "数据分层（第 11 讲的另一份摘要：data-collection.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 4170,
+          "sha256": "6405a3ed5dca349310cec0f648933447b7949efa298e1b8f6f3442cb611a8e63",
+          "start_marker": "<!-- source-block:data-collection-154-183:start -->",
+          "end_marker": "<!-- source-block:data-collection-154-183:end -->"
+        },
+        {
+          "id": "data-collection-184-194",
+          "start_line": 184,
+          "end_line": 194,
+          "source_heading": "**12. 课程总结**",
+          "destination": "draft/data-systems/metadata-and-lineage.md",
+          "destination_heading": "元数据与分层的原总结和思考题（data-collection.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 1305,
+          "sha256": "6ac4b1ac95db4ba76e3c5614ef2b869ee5f77bb465ff0b888965388d9bb8808a",
+          "start_marker": "<!-- source-block:data-collection-184-194:start -->",
+          "end_marker": "<!-- source-block:data-collection-184-194:end -->"
+        },
+        {
+          "id": "data-collection-195-268",
+          "start_line": 195,
+          "end_line": 268,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/analytical-data-modeling.md",
+          "destination_heading": "数据建模（第 12 讲的另一份摘要：data-collection.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 14442,
+          "sha256": "aa171229129b57a8927208e429ff1ce6be86468fbf990cb0006933c273245918",
+          "start_marker": "<!-- source-block:data-collection-195-268:start -->",
+          "end_marker": "<!-- source-block:data-collection-195-268:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/data-storage.md",
+      "action": "split-and-relocate",
+      "size": 34880,
+      "sha256": "7832cfd4df3410abc9d14d87df29c820cffb11617fd60689801d54079ff432c1",
+      "line_count": 226,
+      "blocks": [
+        {
+          "id": "data-storage-1-25",
+          "start_line": 1,
+          "end_line": 25,
+          "source_heading": "数据持久层设计和数据库选型",
+          "destination": "draft/prerequisites/database.md",
+          "destination_heading": "数据库、索引与事务概览",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 2842,
+          "sha256": "43c5e3ab4173f53e10ae67c5c45462e2122c9fa2bd5608d0bd7e07716e3661a5",
+          "start_marker": "<!-- source-block:data-storage-1-25:start -->",
+          "end_marker": "<!-- source-block:data-storage-1-25:end -->"
+        },
+        {
+          "id": "data-storage-26-80",
+          "start_line": 26,
+          "end_line": 80,
+          "source_heading": "这篇文章是 Easy-Vibe 教程中「数据模型全景：文档/图/时序/向量」章节，核心回答「为什么不能把所有数据都塞进 MySQL 表格」，系统介绍了文档、图、时序、向量四种数据模型的特点、适用场景和选型方法。以下是完整总结。",
+          "destination": "draft/prerequisites/storage-models-and-indexes.md",
+          "destination_heading": "文档、图、时序与向量模型",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 6822,
+          "sha256": "c05d0f4f504bb3f3a551e306bfe4435c4ca5c9ee7013e631cd03386dd09bb352",
+          "start_marker": "<!-- source-block:data-storage-26-80:start -->",
+          "end_marker": "<!-- source-block:data-storage-26-80:end -->"
+        },
+        {
+          "id": "data-storage-81-93",
+          "start_line": 81,
+          "end_line": 93,
+          "source_heading": "数据持久层（上）：理论分析\"，聚焦持久层中的存储技术选型理论：先讲关系数据库的三大范式（1NF/2NF/3NF）及权衡，再讲 NoSQL 出现的背景与四大分类（键值、列式、文档、对象），最后从\"Scale Up 到 Scale Out\"和\"结构化到非结构化\"两个角度总结存储技术演进趋势，为下一讲的实战案例做理论铺垫。",
+          "destination": "draft/prerequisites/database.md",
+          "destination_heading": "关系数据库与范式设计",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 2273,
+          "sha256": "e70cafb8ce93f8656d8f0f18219c254bc1d8ccd2239974b7324b6874cd669078",
+          "start_marker": "<!-- source-block:data-storage-81-93:start -->",
+          "end_marker": "<!-- source-block:data-storage-81-93:end -->"
+        },
+        {
+          "id": "data-storage-94-171",
+          "start_line": 94,
+          "end_line": 171,
+          "source_heading": "NoSQL 出现背景",
+          "destination": "draft/prerequisites/storage-models-and-indexes.md",
+          "destination_heading": "NoSQL 分类与搜索、地理信息和持久层案例",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 15942,
+          "sha256": "7457193987cf00af96d54ef055a6a2b78bae5ed50da6700090d91eb6925fe87d",
+          "start_marker": "<!-- source-block:data-storage-94-171:start -->",
+          "end_marker": "<!-- source-block:data-storage-94-171:end -->"
+        },
+        {
+          "id": "data-storage-172-226",
+          "start_line": 172,
+          "end_line": 226,
+          "source_heading": "这篇文章写于2019年，当时AI应用尚未大规模普及，案例集中在搜索引擎（倒排索引/Elasticsearch）和地理信息系统（GeoHash）。从2026年的视角回看，持久层技术已发生深刻变革，AI对数据存储的需求催生了全新的案例和更新方向。",
+          "destination": "draft/review/ai-storage-updates.md",
+          "destination_heading": "原“2026 更新”评论与建议（保留待核验）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 7001,
+          "sha256": "1d2ff60878fdf1ac8cbf7101a900ba8657f0a01ac53f41856ec08abc640bc47a",
+          "start_marker": "<!-- source-block:data-storage-172-226:start -->",
+          "end_marker": "<!-- source-block:data-storage-172-226:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/data-storage-2.md",
+      "action": "split-and-relocate",
+      "size": 36803,
+      "sha256": "c06649b5389f342173c6bf30b17f38b897d432d56489b285b3f9c92da0cf2fa5",
+      "line_count": 233,
+      "blocks": [
+        {
+          "id": "data-storage-2-1-137",
+          "start_line": 1,
+          "end_line": 137,
+          "source_heading": "分布式存储：数据的持久化和一致性",
+          "destination": "draft/prerequisites/distributed-system.md",
+          "destination_heading": "复制、一致性、哈希与 CAP、ACID、BASE",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 20268,
+          "sha256": "d187aeb9f28d708c391adbad6fd60ab5d436ef36302ecc294374d94805d8d43b",
+          "start_marker": "<!-- source-block:data-storage-2-1-137:start -->",
+          "end_marker": "<!-- source-block:data-storage-2-1-137:end -->"
+        },
+        {
+          "id": "data-storage-2-138-156",
+          "start_line": 138,
+          "end_line": 156,
+          "source_heading": "## 云服务下数据一致性理论的重要性",
+          "destination": "draft/data-systems/cloud-data-platforms.md",
+          "destination_heading": "云服务与一致性理论补充（原 data-storage-2.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 3820,
+          "sha256": "b3607d6de98a0650d956827d038dfc1dd63bb1007b386902db7b2f8ba690faf6",
+          "start_marker": "<!-- source-block:data-storage-2-138-156:start -->",
+          "end_marker": "<!-- source-block:data-storage-2-138-156:end -->"
+        },
+        {
+          "id": "data-storage-2-157-233",
+          "start_line": 157,
+          "end_line": 233,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/analytical-storage.md",
+          "destination_heading": "分析型存储方案与架构演进（原第 05 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 12715,
+          "sha256": "caf51351d576f584a42bb27d1ee7be1db8b30d3a241e4fabbd65bd3d103fe6b0",
+          "start_marker": "<!-- source-block:data-storage-2-157-233:start -->",
+          "end_marker": "<!-- source-block:data-storage-2-157-233:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/dw.md",
+      "action": "split-and-relocate",
+      "size": 65563,
+      "sha256": "f944cff97370f2aa56d833b0fb76738bce21882bd600dbabe4ece2f50a850848",
+      "line_count": 523,
+      "blocks": [
+        {
+          "id": "dw-1-107",
+          "start_line": 1,
+          "end_line": 107,
+          "source_heading": "以下是《10｜数仓、数据湖与湖仓一体：如何做出正确的选择》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/warehouses-and-lakehouses.md",
+          "destination_heading": "数仓、数据湖与湖仓一体（原第 10 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 13028,
+          "sha256": "a67ae0dba44ef68bd8bfb688beb2d9dba731ef6b8323b2e24f4c658b24a3afeb",
+          "start_marker": "<!-- source-block:dw-1-107:start -->",
+          "end_marker": "<!-- source-block:dw-1-107:end -->"
+        },
+        {
+          "id": "dw-108-166",
+          "start_line": 108,
+          "end_line": 166,
+          "source_heading": "以下是《11｜元数据管理与数据分层：让数据资产从混沌到有序》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/metadata-and-lineage.md",
+          "destination_heading": "元数据管理（第 11 讲主材料：dw.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 9070,
+          "sha256": "b8a32686639efd4212ff1b740ed70b58afb56803884b15cd97e1b008b52b0e6f",
+          "start_marker": "<!-- source-block:dw-108-166:start -->",
+          "end_marker": "<!-- source-block:dw-108-166:end -->"
+        },
+        {
+          "id": "dw-167-205",
+          "start_line": 167,
+          "end_line": 205,
+          "source_heading": "**数据分层：构建有序的数据体系**",
+          "destination": "draft/data-systems/analytical-data-modeling.md",
+          "destination_heading": "数据分层（第 11 讲主材料：dw.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 4406,
+          "sha256": "d7dbb818c8caec4e999f6687ca2f16b3279adc0f65876a5a8b2a75aed5a8eff1",
+          "start_marker": "<!-- source-block:dw-167-205:start -->",
+          "end_marker": "<!-- source-block:dw-167-205:end -->"
+        },
+        {
+          "id": "dw-206-221",
+          "start_line": 206,
+          "end_line": 221,
+          "source_heading": "**课程总结**",
+          "destination": "draft/data-systems/metadata-and-lineage.md",
+          "destination_heading": "元数据与分层的原总结和思考题（dw.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 1786,
+          "sha256": "6992f358be0f822d5969e5208ad41de5a330aea68c388e21fa85689442ad9eb7",
+          "start_marker": "<!-- source-block:dw-206-221:start -->",
+          "end_marker": "<!-- source-block:dw-206-221:end -->"
+        },
+        {
+          "id": "dw-222-363",
+          "start_line": 222,
+          "end_line": 363,
+          "source_heading": "以下是《12｜数据模型：从业务需求到数据结构的\"翻译器\"》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/analytical-data-modeling.md",
+          "destination_heading": "数据建模（第 12 讲主材料：dw.md）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 17976,
+          "sha256": "93673bf7c45ace819d54f3411253781a930a532bd1f8e38f3dacdbcc7cc8bdc9",
+          "start_marker": "<!-- source-block:dw-222-363:start -->",
+          "end_marker": "<!-- source-block:dw-222-363:end -->"
+        },
+        {
+          "id": "dw-364-523",
+          "start_line": 364,
+          "end_line": 523,
+          "source_heading": "以下是《13｜ETL：让数据从\"原始\"到\"可用\"》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/etl-and-identity.md",
+          "destination_heading": "ETL、加载策略与身份映射（原第 13 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 19297,
+          "sha256": "8294e0bde94197e8072017f2358503f4953af99bd077d08c14fc091c82383681",
+          "start_marker": "<!-- source-block:dw-364-523:start -->",
+          "end_marker": "<!-- source-block:dw-364-523:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/data-governance.md",
+      "action": "split-and-relocate",
+      "size": 42094,
+      "sha256": "4e4e41433ff23e4cf06ff9cfed47bec5bebfda21046117d39603ed9ddb5747f0",
+      "line_count": 306,
+      "blocks": [
+        {
+          "id": "data-governance-1-64",
+          "start_line": 1,
+          "end_line": 64,
+          "source_heading": "这篇文章是 Easy-Vibe 教程中「数据治理导论」章节，回答「如何让数据从能用变成好用、可信、可追溯」。以下是总结。",
+          "destination": "draft/data-systems/data-quality.md",
+          "destination_heading": "数据治理概览（Easy-Vibe 教程摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 5901,
+          "sha256": "0500efb288031d5eeab5671ea2cf73d059a3a97d2f88027ae634ed8cfa74c031",
+          "start_marker": "<!-- source-block:data-governance-1-64:start -->",
+          "end_marker": "<!-- source-block:data-governance-1-64:end -->"
+        },
+        {
+          "id": "data-governance-65-201",
+          "start_line": 65,
+          "end_line": 201,
+          "source_heading": "以下是《14｜数据质量：从问题到体系构建，质量管理的全流程》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/data-quality.md",
+          "destination_heading": "数据质量管理（原第 14 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 19919,
+          "sha256": "c987c67317c69324e636b7b1a0f94b8150b844da47b5b359f64abc19d7c3c3d0",
+          "start_marker": "<!-- source-block:data-governance-65-201:start -->",
+          "end_marker": "<!-- source-block:data-governance-65-201:end -->"
+        },
+        {
+          "id": "data-governance-202-306",
+          "start_line": 202,
+          "end_line": 306,
+          "source_heading": "以下是《15｜数据血缘：数据系统不可或缺的核心链路》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/metadata-and-lineage.md",
+          "destination_heading": "数据血缘（原第 15 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 16274,
+          "sha256": "6514cc3231d8761899d22e46a68196a637382371bb157333bdd18b88b9fa1337",
+          "start_marker": "<!-- source-block:data-governance-202-306:start -->",
+          "end_marker": "<!-- source-block:data-governance-202-306:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/platform-governance.md",
+      "action": "split-and-relocate",
+      "size": 59488,
+      "sha256": "e47454d269a2b2f8be8de12433519c3b1c730c79efc70b95eb243225eac155e2",
+      "line_count": 501,
+      "blocks": [
+        {
+          "id": "platform-governance-1-175",
+          "start_line": 1,
+          "end_line": 175,
+          "source_heading": "以下是《17｜house keeping：如何让一个大数据系统持续可用》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/data-lifecycle-and-recovery.md",
+          "destination_heading": "生命周期与 Housekeeping（原第 17 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 20938,
+          "sha256": "f4ad370dc6aae1e2dd555d8fd7705d4731ea5a43153e1a24b6edba8cd29131db",
+          "start_marker": "<!-- source-block:platform-governance-1-175:start -->",
+          "end_marker": "<!-- source-block:platform-governance-1-175:end -->"
+        },
+        {
+          "id": "platform-governance-176-364",
+          "start_line": 176,
+          "end_line": 364,
+          "source_heading": "以下是《18｜合规与安全：让CIO踏实睡好觉》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/data-security-and-compliance.md",
+          "destination_heading": "数据安全与合规（原第 18 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 21491,
+          "sha256": "f3c4b6a153be3f2e97419aee2a12d1308c9b07ca8d142822fc9a7781dbb389aa",
+          "start_marker": "<!-- source-block:platform-governance-176-364:start -->",
+          "end_marker": "<!-- source-block:platform-governance-176-364:end -->"
+        },
+        {
+          "id": "platform-governance-365-501",
+          "start_line": 365,
+          "end_line": 501,
+          "source_heading": "以下是《16｜资源调度：有限的资源如何让所有用户都满意？》的完整总结，已覆盖文章全部要点。",
+          "destination": "draft/data-systems/resource-scheduling.md",
+          "destination_heading": "资源调度（原第 16 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 17059,
+          "sha256": "adee7ab2ca6463c1c142e608fa424f746e492845a1465865e3a1c5cc3c6a3dcf",
+          "start_marker": "<!-- source-block:platform-governance-365-501:start -->",
+          "end_marker": "<!-- source-block:platform-governance-365-501:end -->"
+        }
+      ]
+    },
+    {
+      "source": "draft/cloud.md",
+      "action": "split-and-relocate",
+      "size": 22809,
+      "sha256": "0ab22f84312381bd67f389a9582e8bd863e6d7c9385921df3bb8776614907617",
+      "line_count": 169,
+      "blocks": [
+        {
+          "id": "cloud-1-89",
+          "start_line": 1,
+          "end_line": 89,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/cloud-data-platforms.md",
+          "destination_heading": "云原生概念与方案选择（原第 07 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 12469,
+          "sha256": "3b0cc15252e30540319831e002495d44e92cd1d714ac947c66f5f90f0020d637",
+          "start_marker": "<!-- source-block:cloud-1-89:start -->",
+          "end_marker": "<!-- source-block:cloud-1-89:end -->"
+        },
+        {
+          "id": "cloud-90-169",
+          "start_line": 90,
+          "end_line": 169,
+          "source_heading": "### TLDR",
+          "destination": "draft/data-systems/cloud-data-platforms.md",
+          "destination_heading": "部署决策与中国市场案例（原第 08 讲摘要）",
+          "action": "relocate-verbatim",
+          "reason": "Group the approved source section under its chapter without rewriting or deduplicating.",
+          "size": 10340,
+          "sha256": "a4a7169abb72ff83cbe29e2cccdb79204a37bb37a5c150eda181414b085d169c",
+          "start_marker": "<!-- source-block:cloud-90-169:start -->",
+          "end_marker": "<!-- source-block:cloud-90-169:end -->"
+        }
+      ]
+    }
+  ],
+  "destinations": [
+    {
+      "destination": "draft/data-systems/data-platforms.md",
+      "title": "从业务约束到数据架构",
+      "role": "第 1 章",
+      "block_order": [
+        "big-data-system-intro-1-48"
+      ],
+      "size": 8056,
+      "sha256": "62f3fc38a4377bf98f0725f7a14ebdbe2bfe64f00d905edc2ee810e940859330"
+    },
+    {
+      "destination": "draft/data-systems/data-collection.md",
+      "title": "事件设计与数据采集",
+      "role": "第 2 章",
+      "block_order": [
+        "data-collection-1-53",
+        "data-collection-54-106"
+      ],
+      "size": 12935,
+      "sha256": "fe446abf35cc07ca60f692eaae98d8b45e6a77d707b05e034060e9b3ee017cf8"
+    },
+    {
+      "destination": "draft/data-systems/data-ingestion.md",
+      "title": "可靠接入与数据传输",
+      "role": "第 3 章",
+      "block_order": [
+        "big-data-system-design-1-85"
+      ],
+      "size": 11480,
+      "sha256": "a509ef8dd27b646b062b55e19259116d82c9490e16af5022534f62b461c85eb9"
+    },
+    {
+      "destination": "draft/data-systems/analytical-storage.md",
+      "title": "分析型存储与数据布局",
+      "role": "第 4 章",
+      "block_order": [
+        "data-storage-2-157-233"
+      ],
+      "size": 13199,
+      "sha256": "f80252edd90606b2af66cf4bfd8e11779337f5137bd290d5cef11048077de1df"
+    },
+    {
+      "destination": "draft/data-systems/batch-and-stream-processing.md",
+      "title": "批处理、流处理与计算选择",
+      "role": "第 5 章",
+      "block_order": [
+        "big-data-system-design-86-180"
+      ],
+      "size": 14190,
+      "sha256": "7e6c93ea2c646a1454ac7f9a799200e7a95553a03d136c9e688d98d6790acec9"
+    },
+    {
+      "destination": "draft/data-systems/warehouses-and-lakehouses.md",
+      "title": "数仓、数据湖与湖仓一体",
+      "role": "第 6 章",
+      "block_order": [
+        "dw-1-107"
+      ],
+      "size": 13470,
+      "sha256": "e772716fee7ee4addd10eee25af9ba08ac3cbba84066fd7dc78fa19e4988257d"
+    },
+    {
+      "destination": "draft/data-systems/analytical-data-modeling.md",
+      "title": "分析建模与数据分层",
+      "role": "第 7 章",
+      "block_order": [
+        "dw-222-363",
+        "dw-167-205",
+        "data-collection-195-268",
+        "data-collection-154-183"
+      ],
+      "size": 42148,
+      "sha256": "8c338a5ce5afd79c05751ecb3202455feeb97f60218102ee92da8f5703aa7ae8"
+    },
+    {
+      "destination": "draft/data-systems/etl-and-identity.md",
+      "title": "可重跑的 ETL 与身份映射",
+      "role": "第 8 章",
+      "block_order": [
+        "dw-364-523"
+      ],
+      "size": 19744,
+      "sha256": "ab2442374412750a396fb80c86a936301643a0d2d068b04442863f694d223064"
+    },
+    {
+      "destination": "draft/data-systems/metadata-and-lineage.md",
+      "title": "元数据、指标语义与数据血缘",
+      "role": "第 9 章",
+      "block_order": [
+        "dw-108-166",
+        "dw-206-221",
+        "data-collection-107-153",
+        "data-collection-184-194",
+        "data-governance-202-306"
+      ],
+      "size": 38423,
+      "sha256": "b50e5fb3ca662b759a943e9129cb18929b4d2119e4c4dfc28813f3a1885faba3"
+    },
+    {
+      "destination": "draft/data-systems/data-quality.md",
+      "title": "数据质量与变更管理",
+      "role": "第 10 章",
+      "block_order": [
+        "data-governance-1-64",
+        "data-governance-65-201"
+      ],
+      "size": 26516,
+      "sha256": "0565008d6408286d8ae3b92b50b1cc1e51fe8ba0ddc9a7e51f8d080de5aae5c3"
+    },
+    {
+      "destination": "draft/data-systems/resource-scheduling.md",
+      "title": "任务编排、资源隔离与调度",
+      "role": "第 11 章",
+      "block_order": [
+        "platform-governance-365-501"
+      ],
+      "size": 17541,
+      "sha256": "ececfe1af14b86909c73a2f587400a8540021d36bc631e9b3a0c02f065da1da0"
+    },
+    {
+      "destination": "draft/data-systems/data-lifecycle-and-recovery.md",
+      "title": "生命周期、维护与恢复",
+      "role": "第 12 章",
+      "block_order": [
+        "platform-governance-1-175"
+      ],
+      "size": 21424,
+      "sha256": "dd2cf0cb84d66a1dea717df917c11eda045e8c4324350a64e66b039597737fb2"
+    },
+    {
+      "destination": "draft/data-systems/cloud-data-platforms.md",
+      "title": "云上、自建与混合部署",
+      "role": "第 13 章",
+      "block_order": [
+        "cloud-1-89",
+        "cloud-90-169",
+        "data-storage-2-138-156"
+      ],
+      "size": 27544,
+      "sha256": "d7001fca81feaa910c2a343c132fd0839c3ce1c33cdc1ca660033a584efdcc81"
+    },
+    {
+      "destination": "draft/data-systems/data-security-and-compliance.md",
+      "title": "数据安全、隐私与审计",
+      "role": "第 14 章",
+      "block_order": [
+        "platform-governance-176-364"
+      ],
+      "size": 21976,
+      "sha256": "0afcc193adba4ecf1dc7acf98fca556ff29ee6b14b0bb5d395cc093b95ec889f"
+    },
+    {
+      "destination": "draft/prerequisites/database.md",
+      "title": "关系数据库基础：待整合材料",
+      "role": "前置知识，待整合到现有数据库专题",
+      "block_order": [
+        "data-storage-1-25",
+        "data-storage-81-93"
+      ],
+      "size": 5814,
+      "sha256": "2dcc4d4021943b31bfa22d98cf634c7aa1e9bd99bf489c877acd06c42ff31ac7"
+    },
+    {
+      "destination": "draft/prerequisites/storage-models-and-indexes.md",
+      "title": "存储模型与索引：待整合材料",
+      "role": "前置知识，待确定存储模型与索引内容的规范归属",
+      "block_order": [
+        "data-storage-26-80",
+        "data-storage-94-171"
+      ],
+      "size": 23514,
+      "sha256": "8cfa163df93cecf8af6f892b1fe21b109c749be4cce5ea206701fb77cf169396"
+    },
+    {
+      "destination": "draft/prerequisites/distributed-system.md",
+      "title": "分布式存储与一致性：待整合材料",
+      "role": "前置知识，待整合到现有分布式系统专题",
+      "block_order": [
+        "data-storage-2-1-137"
+      ],
+      "size": 20793,
+      "sha256": "095338783cbe241f0cbef29984a998902a36373033fc970c8f7a609f414b98f9"
+    },
+    {
+      "destination": "draft/review/ai-storage-updates.md",
+      "title": "AI 存储更新：待核验材料",
+      "role": "审阅材料，技术断言与内容归属尚待核验",
+      "block_order": [
+        "data-storage-172-226"
+      ],
+      "size": 7522,
+      "sha256": "028fa7d2eb6490dcca09bdc451298d119de4eeb96ab651ab320f27a51a8c3f97"
+    }
+  ]
+}

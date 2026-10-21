@@ -1,6 +1,15 @@
+---
+id: sql-execution
+locale: en
+title: "Sql Execution"
+status: published
+created: 2026-10-17
+updated: 2026-10-17
+---
+
 # SQL Execution
 
-Last updated: 2026-07-21
+Last updated: 2026-10-17
 
 Using Oracle as example, several steps
 

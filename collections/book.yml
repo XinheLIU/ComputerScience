@@ -1,5 +1,5 @@
 # Book navigation and publication manifest for Computer Science Tutorial.
-# Last updated: 2026-10-17
+# Last updated: 2026-10-21
 id: computer-science
 items:
   - id: quick-start-guide
@@ -486,11 +486,69 @@ items:
     route:
       en: /ComputerScience/en/book/02-topics/08-data/database-and-cache.html
     layout: chapter
+  - id: data-platforms
+    source:
+      en: en/book/02-topics/08-data/data-platforms.md
+      zh-CN: zh/book/02-topics/08-data/data-platforms.md
+    part: topics
+    order: 2039
+    route:
+      en: /ComputerScience/en/book/02-topics/08-data/data-platforms.html
+      zh-CN: /ComputerScience/zh/book/02-topics/08-data/data-platforms.html
+    layout: chapter
+  - id: database-and-bigdata
+    source:
+      zh-CN: zh/book/02-topics/08-data/database-and-bigdata.md
+    part: topics
+    order: 2040
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/08-data/database-and-bigdata.html
+    layout: chapter
+  - id: data-systems
+    source:
+      zh-CN: zh/book/02-topics/08-data/data-systems.md
+    part: topics
+    order: 2041
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/08-data/data-systems.html
+    layout: chapter
+  - id: data-governance
+    source:
+      zh-CN: zh/book/02-topics/08-data/data-governance.md
+    part: topics
+    order: 2042
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/08-data/data-governance.html
+    layout: chapter
+  - id: data-operations
+    source:
+      zh-CN: zh/book/02-topics/08-data/data-operations.md
+    part: topics
+    order: 2043
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/08-data/data-operations.html
+    layout: chapter
+  - id: data-industry-cases
+    source:
+      zh-CN: zh/book/02-topics/08-data/industry-cases.md
+    part: topics
+    order: 2044
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/08-data/industry-cases.html
+    layout: chapter
+  - id: data-engineer-roadmap
+    source:
+      zh-CN: zh/book/02-topics/08-data/data-engineer-roadmap.md
+    part: topics
+    order: 2045
+    route:
+      zh-CN: /ComputerScience/zh/book/02-topics/08-data/data-engineer-roadmap.html
+    layout: chapter
   - id: software-design
     source:
       en: en/book/02-topics/09-software-design/software-design.md
     part: topics
-    order: 2039
+    order: 2046
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/software-design.html
     layout: chapter
@@ -498,7 +556,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/design-overview.md
     part: topics
-    order: 2040
+    order: 2047
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/design-overview.html
     layout: chapter
@@ -506,7 +564,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/design-principles.md
     part: topics
-    order: 2041
+    order: 2048
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/design-principles.html
     layout: chapter
@@ -514,7 +572,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/uml-unified-modeling-language.md
     part: topics
-    order: 2042
+    order: 2049
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/uml-unified-modeling-language.html
     layout: chapter
@@ -522,7 +580,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/code-quality.md
     part: topics
-    order: 2043
+    order: 2050
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/code-quality.html
     layout: chapter
@@ -530,7 +588,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/design-patterns-overview.md
     part: topics
-    order: 2044
+    order: 2051
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/design-patterns-overview.html
     layout: chapter
@@ -538,7 +596,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/creational-patterns.md
     part: topics
-    order: 2045
+    order: 2052
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/creational-patterns.html
     layout: chapter
@@ -546,7 +604,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/structural-patterns.md
     part: topics
-    order: 2046
+    order: 2053
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/structural-patterns.html
     layout: chapter
@@ -554,7 +612,7 @@ items:
     source:
       en: en/book/02-topics/09-software-design/behavioral-patterns.md
     part: topics
-    order: 2047
+    order: 2054
     route:
       en: /ComputerScience/en/book/02-topics/09-software-design/behavioral-patterns.html
     layout: chapter
@@ -562,7 +620,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/programming-tools-map.md
     part: topics
-    order: 2048
+    order: 2055
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/programming-tools-map.html
     layout: chapter
@@ -570,7 +628,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/working-environment-setup.md
     part: topics
-    order: 2049
+    order: 2056
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/working-environment-setup.html
     layout: chapter
@@ -578,7 +636,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/command-line.md
     part: topics
-    order: 2050
+    order: 2057
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/command-line.html
     layout: chapter
@@ -586,7 +644,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/shell.md
     part: topics
-    order: 2051
+    order: 2058
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/shell.html
     layout: chapter
@@ -594,7 +652,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/shell-scripting.md
     part: topics
-    order: 2052
+    order: 2059
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/shell-scripting.html
     layout: chapter
@@ -603,7 +661,7 @@ items:
       en: en/book/02-topics/10-developer-tools/git-reference.md
       zh-CN: zh/book/02-topics/10-developer-tools/git-reference.md
     part: topics
-    order: 2053
+    order: 2060
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/git-reference.html
       zh-CN: /ComputerScience/zh/book/02-topics/10-developer-tools/git-reference.html
@@ -613,7 +671,7 @@ items:
       en: en/book/02-topics/10-developer-tools/git-deep-dive.md
       zh-CN: zh/book/02-topics/10-developer-tools/git-deep-dive.md
     part: topics
-    order: 2054
+    order: 2061
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/git-deep-dive.html
       zh-CN: /ComputerScience/zh/book/02-topics/10-developer-tools/git-deep-dive.html
@@ -622,7 +680,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/vim.md
     part: topics
-    order: 2055
+    order: 2062
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/vim.html
     layout: chapter
@@ -630,7 +688,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/vim-workflows.md
     part: topics
-    order: 2056
+    order: 2063
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/vim-workflows.html
     layout: chapter
@@ -638,7 +696,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/vim-configuration.md
     part: topics
-    order: 2057
+    order: 2064
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/vim-configuration.html
     layout: chapter
@@ -646,7 +704,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/vim-plugins.md
     part: topics
-    order: 2058
+    order: 2065
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/vim-plugins.html
     layout: chapter
@@ -654,7 +712,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/vimscript.md
     part: topics
-    order: 2059
+    order: 2066
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/vimscript.html
     layout: chapter
@@ -662,7 +720,7 @@ items:
     source:
       en: en/book/02-topics/10-developer-tools/emacs.md
     part: topics
-    order: 2060
+    order: 2067
     route:
       en: /ComputerScience/en/book/02-topics/10-developer-tools/emacs.html
     layout: chapter
@@ -739,14 +797,6 @@ items:
     order: 3009
     route:
       en: /ComputerScience/en/book/03-practice-frontiers/02-distributed-data/distributed-system.html
-    layout: chapter
-  - id: data-platforms
-    source:
-      en: en/book/03-practice-frontiers/02-distributed-data/data-platforms.md
-    part: practice-frontiers
-    order: 3010
-    route:
-      en: /ComputerScience/en/book/03-practice-frontiers/02-distributed-data/data-platforms.html
     layout: chapter
   - id: devops-and-deployment
     source:

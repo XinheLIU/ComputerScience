@@ -1,6 +1,15 @@
-# SQL as Data Definition Language
+---
+id: ddl
+locale: en
+title: "Ddl"
+status: published
+created: 2026-10-17
+updated: 2026-10-17
+---
 
-Last updated: 2026-07-21
+# DDL
+
+Last updated: 2026-10-17
 
 ## Create Tables
 

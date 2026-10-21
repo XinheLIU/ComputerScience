@@ -740,6 +740,107 @@
               "Database and Cache",
               "database-and-cache"
             ]
+          },
+          {
+            "title": "数据工程导读 / Data Platforms",
+            "source": "02-topics/08-data/data-platforms.md",
+            "link": "/book/02-topics/08-data/data-platforms",
+            "languages": [
+              "en",
+              "zh"
+            ],
+            "aliases": [
+              "数据平台",
+              "数据工程导读",
+              "数据密集型系统",
+              "Big Data Technology",
+              "data-platforms"
+            ]
+          },
+          {
+            "title": "数据库基础与大数据演进 / Database Fundamentals and Big Data Evolution",
+            "source": "02-topics/08-data/database-and-bigdata.md",
+            "link": "/book/02-topics/08-data/database-and-bigdata",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "数据库基础与大数据演进",
+              "database-and-bigdata",
+              "大数据演进",
+              "数据库历史"
+            ]
+          },
+          {
+            "title": "数据系统的构成 / Data System Components",
+            "source": "02-topics/08-data/data-systems.md",
+            "link": "/book/02-topics/08-data/data-systems",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "数据系统的构成",
+              "data-systems",
+              "七层架构",
+              "湖仓一体"
+            ]
+          },
+          {
+            "title": "数据治理：分层、质量与元数据 / Data Governance",
+            "source": "02-topics/08-data/data-governance.md",
+            "link": "/book/02-topics/08-data/data-governance",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "数据治理",
+              "data-governance",
+              "数据分层",
+              "数据质量"
+            ]
+          },
+          {
+            "title": "数据平台运维 / Data Platform Operations",
+            "source": "02-topics/08-data/data-operations.md",
+            "link": "/book/02-topics/08-data/data-operations",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "数据平台运维",
+              "data-operations",
+              "资源调度",
+              "安全合规",
+              "数据生命周期"
+            ]
+          },
+          {
+            "title": "大厂数据平台与实践案例 / Big Tech Data Platforms and Case Studies",
+            "source": "02-topics/08-data/industry-cases.md",
+            "link": "/book/02-topics/08-data/industry-cases",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "大厂数据平台与实践案例",
+              "industry-cases",
+              "实践案例",
+              "大厂数据平台"
+            ]
+          },
+          {
+            "title": "数据工程师的成长地图 / A Data Engineer's Growth Map",
+            "source": "02-topics/08-data/data-engineer-roadmap.md",
+            "link": "/book/02-topics/08-data/data-engineer-roadmap",
+            "languages": [
+              "zh"
+            ],
+            "aliases": [
+              "数据工程师的成长地图",
+              "data-engineer-roadmap",
+              "成长地图",
+              "学习路线"
+            ]
           }
         ]
       },
@@ -1166,18 +1267,6 @@
               "Distributed System",
               "ch26-distributed-systems",
               "distributed-system"
-            ]
-          },
-          {
-            "title": "Data Platforms",
-            "source": "03-practice-frontiers/02-distributed-data/data-platforms.md",
-            "link": "/book/03-practice-frontiers/02-distributed-data/data-platforms",
-            "languages": [
-              "en"
-            ],
-            "aliases": [
-              "Big Data Tech",
-              "Big Data Technology"
             ]
           }
         ]

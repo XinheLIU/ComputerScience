@@ -1,6 +1,15 @@
-# Data Manipulation and Controls in SQL
+---
+id: dml-dcl
+locale: en
+title: "Data Manipulation and Control"
+status: published
+created: 2026-10-17
+updated: 2026-10-17
+---
 
-Last updated: 2026-07-21
+# DML & DCL
+
+Last updated: 2026-10-17
 
 - [Data Manipulation and Controls in SQL](#data-manipulation-and-controls-in-sql)
   - [Commands to manipulate data](#commands-to-manipulate-data)

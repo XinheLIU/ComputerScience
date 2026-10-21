@@ -1,4 +1,15 @@
-Last updated: 2026-07-21
+---
+id: database-and-cache
+locale: en
+title: "Database And Cache"
+status: published
+created: 2026-10-17
+updated: 2026-10-17
+---
+
+# Database and Cache
+
+Last updated: 2026-10-17
 
 ## Database
 
@@ -57,6 +68,3 @@ Use memory based DB such as Memecached is a common choice
   * [How facebook solve thundering herd](#)
 * Dirty Data problem
   * [dirty data](https://www.quora.com/What-does-dirty-mean-in-the-context-of-caching)
-
-
-

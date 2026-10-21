@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-20",
+  "phase": "A",
+  "status": "passed",
+  "scope": "Draft relocation and publication exclusion; imported prose has not been rewritten or fact-checked.",
+  "summary": {
+    "original_files": 9,
+    "source_blocks": 31,
+    "original_lines": 2454,
+    "original_bytes": 334655,
+    "chapter_files": 14,
+    "prerequisite_files": 3,
+    "review_files": 1
+  },
+  "preservation": {
+    "failures": 0,
+    "all_original_lines_assigned_once": true,
+    "all_blocks_present_once": true,
+    "all_block_sha256_verified": true,
+    "all_original_files_reconstructed_byte_for_byte": true,
+    "payload_bytes_before": 334655,
+    "payload_bytes_after": 334655,
+    "all_destinations_nonempty": true,
+    "source_files": [
+      {
+        "source": "draft/big-data-system-intro.md",
+        "line_count": 48,
+        "size": 7574,
+        "sha256": "77a0d21ecb9b12fc38b7e6dd5a81f7e2feb41a5b919a9599bf38aa487f20a548",
+        "blocks_verified": 1,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/big-data-system-design.md",
+        "line_count": 180,
+        "size": 24690,
+        "sha256": "8fa763947d63f74839af2f3a99f51e6d52449672917cf7864560f824a02019e2",
+        "blocks_verified": 2,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/data-collection.md",
+        "line_count": 268,
+        "size": 40754,
+        "sha256": "c4a7bc905920f80713ddb5d468f81a11840e0d9eec1f7c748278ff5221e02ff6",
+        "blocks_verified": 6,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/data-storage.md",
+        "line_count": 226,
+        "size": 34880,
+        "sha256": "7832cfd4df3410abc9d14d87df29c820cffb11617fd60689801d54079ff432c1",
+        "blocks_verified": 5,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/data-storage-2.md",
+        "line_count": 233,
+        "size": 36803,
+        "sha256": "c06649b5389f342173c6bf30b17f38b897d432d56489b285b3f9c92da0cf2fa5",
+        "blocks_verified": 3,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/dw.md",
+        "line_count": 523,
+        "size": 65563,
+        "sha256": "f944cff97370f2aa56d833b0fb76738bce21882bd600dbabe4ece2f50a850848",
+        "blocks_verified": 6,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/data-governance.md",
+        "line_count": 306,
+        "size": 42094,
+        "sha256": "4e4e41433ff23e4cf06ff9cfed47bec5bebfda21046117d39603ed9ddb5747f0",
+        "blocks_verified": 3,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/platform-governance.md",
+        "line_count": 501,
+        "size": 59488,
+        "sha256": "e47454d269a2b2f8be8de12433519c3b1c730c79efc70b95eb243225eac155e2",
+        "blocks_verified": 3,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      },
+      {
+        "source": "draft/cloud.md",
+        "line_count": 169,
+        "size": 22809,
+        "sha256": "0ab22f84312381bd67f389a9582e8bd863e6d7c9385921df3bb8776614907617",
+        "blocks_verified": 2,
+        "reconstructed_exactly": true,
+        "old_path_removed": true
+      }
+    ]
+  },
+  "documentation": {
+    "markdown_files_with_current_update_date": 19,
+    "local_links_verified": 78,
+    "imported_relative_links_or_local_assets_requiring_relocation": 0
+  },
+  "repository": {
+    "head_unchanged": true,
+    "unrelated_existing_files_hash_checked": 401,
+    "publication_manifests_unchanged": true,
+    "config_change": "Added draft/**/*.md to srcExclude; all other config bytes match the baseline.",
+    "allowed_modified_files": [
+      ".vitepress/config.mts",
+      "draft/PLAN.md"
+    ],
+    "expected_removed_files": [
+      "draft/big-data-system-design.md",
+      "draft/big-data-system-intro.md",
+      "draft/cloud.md",
+      "draft/data-collection.md",
+      "draft/data-governance.md",
+      "draft/data-storage-2.md",
+      "draft/data-storage.md",
+      "draft/dw.md",
+      "draft/platform-governance.md"
+    ],
+    "expected_added_files": [
+      "draft/data-systems/analytical-data-modeling.md",
+      "draft/data-systems/analytical-storage.md",
+      "draft/data-systems/batch-and-stream-processing.md",
+      "draft/data-systems/cloud-data-platforms.md",
+      "draft/data-systems/data-collection.md",
+      "draft/data-systems/data-ingestion.md",
+      "draft/data-systems/data-lifecycle-and-recovery.md",
+      "draft/data-systems/data-platforms.md",
+      "draft/data-systems/data-quality.md",
+      "draft/data-systems/data-security-and-compliance.md",
+      "draft/data-systems/etl-and-identity.md",
+      "draft/data-systems/metadata-and-lineage.md",
+      "draft/data-systems/resource-scheduling.md",
+      "draft/data-systems/warehouses-and-lakehouses.md",
+      "draft/prerequisites/database.md",
+      "draft/prerequisites/distributed-system.md",
+      "draft/prerequisites/storage-models-and-indexes.md",
+      "draft/reorganization-audit.json",
+      "draft/reorganization-map.json",
+      "draft/review/ai-storage-updates.md"
+    ]
+  },
+  "validation": {
+    "npm_test": {
+      "status": "passed",
+      "tests": 13
+    },
+    "standard_manifest_validation": {
+      "status": "failed_preexisting",
+      "invalid_links": 2
+    },
+    "standard_vitepress_build": {
+      "status": "failed_preexisting",
+      "dead_link_occurrences": 8,
+      "affected_pages_unchanged_from_baseline": true,
+      "dead_links": [
+        {
+          "file": "en/book/01-quick-start/00-guide/quick-start-guide.md",
+          "target": "./../01-computing/computer-basics"
+        },
+        {
+          "file": "en/book/01-quick-start/00-guide/quick-start-guide.md",
+          "target": "./../02-environment/editor-terminal"
+        },
+        {
+          "file": "en/book/01-quick-start/06-shipping/linux-deployment.md",
+          "target": "./../02-environment/ssh"
+        },
+        {
+          "file": "zh/book/01-quick-start/06-shipping/linux-deployment.md",
+          "target": "./../02-environment/ssh"
+        },
+        {
+          "file": "zh/book/01-quick-start/00-guide/quick-start-guide.md",
+          "target": "./../01-computing/computer-basics"
+        },
+        {
+          "file": "zh/book/01-quick-start/00-guide/quick-start-guide.md",
+          "target": "./../02-environment/editor-terminal"
+        },
+        {
+          "file": "zh/book/01-quick-start/01-computing/internet-and-web.md",
+          "target": "/zh/book/02-topics/05-networks/http"
+        },
+        {
+          "file": "zh/book/01-quick-start/01-computing/internet-and-web.md",
+          "target": "/zh/book/02-topics/06-frontend/browser-and-components"
+        }
+      ]
+    },
+    "isolated_vitepress_build": {
+      "status": "passed",
+      "temporary_dead_link_allowlist": [
+        "./../01-computing/computer-basics",
+        "./../02-environment/editor-terminal",
+        "./../02-environment/ssh",
+        "/zh/book/02-topics/05-networks/http",
+        "/zh/book/02-topics/06-frontend/browser-and-components"
+      ],
+      "allowlist_saved_to_project": false,
+      "resolved_pages": 126,
+      "draft_routes": 0,
+      "draft_html_outputs": 0,
+      "draft_sitemap_entries": 0,
+      "search_indexes": [
+        {
+          "bundle": "@localSearchIndexen.Ct0DevA6.js",
+          "documentCount": 923,
+          "draftDocuments": 0
+        },
+        {
+          "bundle": "@localSearchIndexroot.BVHXXQ9a.js",
+          "documentCount": 8,
+          "draftDocuments": 0
+        },
+        {
+          "bundle": "@localSearchIndexzh.ChHc7pr_.js",
+          "documentCount": 501,
+          "draftDocuments": 0
+        }
+      ]
+    }
+  },
+  "remaining_work": "Phase B: shared dataset, chapter rewrites, factual review, deduplication, examples, and later publication integration."
+}
